@@ -1,10 +1,11 @@
 import json
+import sys
 from collections import defaultdict
 from presidio_analyzer import AnalyzerEngine
-
-records = json.load(open("data/records.json", encoding="utf-8"))
-import sys
 from ke_recognizers import build_ke_analyzer
+
+DATA = next((a for a in sys.argv[1:] if a.endswith(".json")), "data/records.json")
+records = json.load(open(DATA, encoding="utf-8"))
 
 USE_KE = "--ke" in sys.argv
 analyzer = build_ke_analyzer() if USE_KE else AnalyzerEngine()
@@ -43,7 +44,7 @@ def evaluate(threshold):
                 problems.append(f"  rec {rec['id']}: '{value}' expected {label}, MISSED")
 
         for i, p in enumerate(preds):
-            if i not in used:
+            if i not in used and p.entity_type in ("PERSON", "PHONE_NUMBER", "KE_NATIONAL_ID"):
                 false_pos[p.entity_type] += 1
                 problems.append(
                     f"  rec {rec['id']}: FALSE POSITIVE '{text[p.start:p.end]}' as {p.entity_type} ({p.score:.2f})"

@@ -27,7 +27,7 @@ Working:
 - Kenyan phone recogniser; masking: 24/24 labelled identifiers masked
 
 Incomplete:
-- Dataset is small and was used to tune the rules, the larger dataset is still being prepared.
+- Dataset is small and was used to tune the rules.
 - Role-based retrieval and RAG started but not completed
 - Query masking not started
 
