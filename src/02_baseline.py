@@ -3,7 +3,13 @@ from collections import defaultdict
 from presidio_analyzer import AnalyzerEngine
 
 records = json.load(open("data/records.json", encoding="utf-8"))
+import sys
+from ke_recognizers import ke_national_id_recogniser
+
+USE_KE = "--ke" in sys.argv
 analyzer = AnalyzerEngine()
+if USE_KE:
+    analyzer.registry.add_recognizer(ke_national_id_recogniser())
 
 
 def overlaps(a_start, a_end, b_start, b_end):
@@ -53,7 +59,8 @@ def evaluate(threshold):
 for threshold in (0.0, 0.4):
     stats, false_pos, problems = evaluate(threshold)
     print("=" * 60)
-    print(f"Default Presidio, score threshold = {threshold}")
+    name = "Default Presidio + Kenyan ID recogniser" if USE_KE else "Default Presidio"
+    print(f"{name}, score threshold = {threshold}")
     print("=" * 60)
     print(f"{'Entity':18}{'Gold':>6}{'Correct':>9}{'Wrong label':>13}{'Missed':>8}")
     for label, s in stats.items():
