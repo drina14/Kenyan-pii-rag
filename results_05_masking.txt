@@ -1,0 +1,42 @@
+--- Record 1 ---
+BEFORE: Patient Wanjiru Kamau, national ID 12345678, phone +254 712 345 678, invoice 87654321.
+AFTER:  Patient <PERSON>, national ID <KE_NATIONAL_ID>, phone <PHONE_NUMBER>, invoice 87654321.
+
+--- Record 2 ---
+BEFORE: Patient Otieno Brian (ID No: 23456789) can be reached on 0722 456 789. Appointment ref 45678123.
+AFTER:  Patient <PERSON> (ID No: <KE_NATIONAL_ID>) can be reached on <PHONE_NUMBER>. Appointment ref 45678123.
+
+--- Record 3 ---
+BEFORE: Aisha Mohamed, ID 3456789, called from 0110 234 567 about lab ticket 5566778.
+AFTER:  <PERSON>, ID <KE_NATIONAL_ID>, called from <PHONE_NUMBER> about lab ticket 5566778.
+
+--- Record 4 ---
+BEFORE: Kevin Mwangi presented national ID 34567890 at reception. Receipt number 90817263.
+AFTER:  <PERSON> presented national ID <KE_NATIONAL_ID> at reception. Receipt number 90817263.
+
+--- Record 5 ---
+BEFORE: Contact Grace Njeri on +254733567890. Her ID number is 45678901.
+AFTER:  Contact <PERSON> on <PHONE_NUMBER>. Her ID number is <KE_NATIONAL_ID>.
+
+--- Record 6 ---
+BEFORE: Dr. Kiprop Peter reviewed file 11223344 and the pharmacy order 99887766.
+AFTER:  Dr. <PERSON> reviewed file 11223344 and the pharmacy order 99887766.
+
+--- Record 7 ---
+BEFORE: Fatuma Hassan, ID 56789012, phone 0701 678 901, next visit on 14/12/2026.
+AFTER:  <PERSON>, ID <KE_NATIONAL_ID>, phone 0701 678 901, next visit on 14/12/2026.
+  LEAK: '0701 678 901' (PHONE_NUMBER) is still in the masked text
+
+--- Record 8 ---
+BEFORE: Please confirm the patient John Odhiambo, ID 6789012, on 0745 789 012.
+AFTER:  Please confirm the patient <PERSON>, ID <KE_NATIONAL_ID>, on <PHONE_NUMBER>.
+
+--- Record 9 ---
+BEFORE: Billing code 12345678 was applied to claim 20260101 for the clinic.
+AFTER:  Billing code 12345678 was applied to claim 20260101 for the clinic.
+
+--- Record 10 ---
+BEFORE: Mercy Chebet, ID 78901234, requested a copy of her records. Phone: +254 799 890 123.
+AFTER:  <PERSON>, ID <KE_NATIONAL_ID>, requested a copy of her records. Phone: <PHONE_NUMBER>.
+
+Labelled identifiers: 24 | still visible after masking: 1
