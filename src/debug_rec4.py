@@ -8,3 +8,4 @@ for r in a.analyze(text=text, language="en", return_decision_process=True):
     if r.entity_type == "KE_NATIONAL_ID":
         print(text[r.start:r.end], r.score)
         print(r.analysis_explanation.textual_explanation, "\n")
+        print("boosted by:", r.analysis_explanation.supportive_context_word)
