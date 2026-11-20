@@ -4,14 +4,10 @@ from presidio_analyzer import AnalyzerEngine
 
 records = json.load(open("data/records.json", encoding="utf-8"))
 import sys
-from ke_recognizers import ke_national_id_recogniser
+from ke_recognizers import build_ke_analyzer
 
 USE_KE = "--ke" in sys.argv
-analyzer = AnalyzerEngine()
-if USE_KE:
-    analyzer.registry.add_recognizer(ke_national_id_recogniser())
-
-
+analyzer = build_ke_analyzer() if USE_KE else AnalyzerEngine()
 def overlaps(a_start, a_end, b_start, b_end):
     return a_start < b_end and b_start < a_end
 
