@@ -24,8 +24,7 @@ AFTER:  Dr. <PERSON> reviewed file 11223344 and the pharmacy order 99887766.
 
 --- Record 7 ---
 BEFORE: Fatuma Hassan, ID 56789012, phone 0701 678 901, next visit on 14/12/2026.
-AFTER:  <PERSON>, ID <KE_NATIONAL_ID>, phone 0701 678 901, next visit on 14/12/2026.
-  LEAK: '0701 678 901' (PHONE_NUMBER) is still in the masked text
+AFTER:  <PERSON>, ID <KE_NATIONAL_ID>, phone <PHONE_NUMBER>, next visit on 14/12/2026.
 
 --- Record 8 ---
 BEFORE: Please confirm the patient John Odhiambo, ID 6789012, on 0745 789 012.
@@ -39,4 +38,4 @@ AFTER:  Billing code 12345678 was applied to claim 20260101 for the clinic.
 BEFORE: Mercy Chebet, ID 78901234, requested a copy of her records. Phone: +254 799 890 123.
 AFTER:  <PERSON>, ID <KE_NATIONAL_ID>, requested a copy of her records. Phone: <PHONE_NUMBER>.
 
-Labelled identifiers: 24 | still visible after masking: 1
+Labelled identifiers: 24 | still visible after masking: 0
