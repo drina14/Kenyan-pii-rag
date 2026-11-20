@@ -1,0 +1,89 @@
+Corpus masking check: 114 labelled identifiers, 4 still visible after masking
+  LEAK in AR-P09: Grace Odhiambo
+  LEAK in AR-P12: Wanjiru Korir
+  LEAK in RL-P01: Mercy Kiprop
+  LEAK in RL-P04: Faith Otieno
+
+================================================================
+A. Unmasked documents + role filter
+================================================================
+Answer questions: 13 | top-1 correct doc: 8 | all expected docs in top-3: 12
+Top-1 text contains the answer string: 8 of 12
+Deny questions: 6 | forbidden documents retrieved: 0
+Identifiers visible in retrieved text (all questions): 103
+Per question:
+  Q01 receptionist answer  top1=Y hit@3=Y  got=['AR-P01', 'BS-P01', 'POL-04']
+  Q02 receptionist answer  top1=Y hit@3=Y  got=['AR-P02', 'BS-P02', 'POL-04']
+  Q03 receptionist answer  top1=Y hit@3=Y  got=['AR-P03', 'BS-P03', 'POL-04']
+  Q04 receptionist answer  top1=Y hit@3=Y  got=['AR-P04', 'BS-P04', 'POL-04']
+  Q05 clinician    answer  top1=N hit@3=Y  got=['AR-P05', 'VN-P05', 'AR-P06']
+  Q06 clinician    answer  top1=N hit@3=Y  got=['AR-P06', 'VN-P06', 'AR-P09']
+  Q07 clinician    answer  top1=N hit@3=Y  got=['AR-P07', 'VN-P07', 'AR-P06']
+  Q08 receptionist deny    forbidden retrieved=[]  got=['BS-P08', 'AR-P08', 'AR-P06']
+  Q09 receptionist deny    forbidden retrieved=[]  got=['BS-P09', 'AR-P09', 'AR-P06']
+  Q10 receptionist deny    forbidden retrieved=[]  got=['BS-P10', 'AR-P10', 'AR-P06']
+  Q11 clinician    deny    forbidden retrieved=[]  got=['AR-P01', 'RL-P01', 'VN-P01']
+  Q12 clinician    deny    forbidden retrieved=[]  got=['AR-P02', 'RL-P02', 'POL-06']
+  Q13 receptionist answer  top1=Y hit@3=Y  got=['BS-P03', 'AR-P03', 'POL-06']
+  Q14 receptionist answer  top1=Y hit@3=Y  got=['BS-P04', 'AR-P04', 'POL-06']
+  Q15 receptionist answer  top1=Y hit@3=Y  got=['POL-01', 'POL-06', 'POL-05']
+  Q16 dpo          answer  top1=N hit@3=Y  got=['POL-01', 'POL-02', 'POL-03']
+  Q17 clinician    answer  top1=Y hit@3=Y  got=['POL-05', 'POL-02']
+  Q18 dpo          answer  top1=N hit@3=N  got=['POL-03', 'DL-P06', 'DL-P05']
+  Q19 clinician    deny    forbidden retrieved=[]  got=['POL-03', 'POL-02', 'VN-P05']
+
+================================================================
+B. Masked documents + role filter
+================================================================
+Answer questions: 13 | top-1 correct doc: 3 | all expected docs in top-3: 4
+Top-1 text contains the answer string: 3 of 12
+Deny questions: 6 | forbidden documents retrieved: 0
+Identifiers visible in retrieved text (all questions): 2
+Per question:
+  Q01 receptionist answer  top1=Y hit@3=Y  got=['AR-P01', 'POL-04', 'AR-P10']
+  Q02 receptionist answer  top1=N hit@3=N  got=['POL-04', 'AR-P10', 'AR-P05']
+  Q03 receptionist answer  top1=N hit@3=N  got=['POL-04', 'AR-P10', 'AR-P05']
+  Q04 receptionist answer  top1=N hit@3=N  got=['POL-04', 'AR-P10', 'AR-P05']
+  Q05 clinician    answer  top1=N hit@3=N  got=['AR-P10', 'AR-P05', 'AR-P06']
+  Q06 clinician    answer  top1=N hit@3=N  got=['AR-P10', 'AR-P05', 'AR-P06']
+  Q07 clinician    answer  top1=N hit@3=N  got=['AR-P10', 'AR-P05', 'AR-P06']
+  Q08 receptionist deny    forbidden retrieved=[]  got=['AR-P10', 'AR-P05', 'AR-P06']
+  Q09 receptionist deny    forbidden retrieved=[]  got=['AR-P09', 'AR-P10', 'AR-P05']
+  Q10 receptionist deny    forbidden retrieved=[]  got=['AR-P10', 'AR-P05', 'AR-P06']
+  Q11 clinician    deny    forbidden retrieved=[]  got=['RL-P01', 'AR-P01', 'POL-06']
+  Q12 clinician    deny    forbidden retrieved=[]  got=['POL-06', 'AR-P10', 'AR-P05']
+  Q13 receptionist answer  top1=N hit@3=N  got=['POL-06', 'AR-P10', 'AR-P05']
+  Q14 receptionist answer  top1=N hit@3=N  got=['POL-06', 'AR-P10', 'AR-P05']
+  Q15 receptionist answer  top1=Y hit@3=Y  got=['POL-01', 'POL-06', 'POL-05']
+  Q16 dpo          answer  top1=N hit@3=Y  got=['POL-01', 'POL-02', 'POL-03']
+  Q17 clinician    answer  top1=Y hit@3=Y  got=['POL-05', 'POL-02']
+  Q18 dpo          answer  top1=N hit@3=N  got=['POL-03', 'DL-P06', 'DL-P05']
+  Q19 clinician    deny    forbidden retrieved=[]  got=['POL-03', 'POL-02', 'VN-P05']
+
+================================================================
+C. CONTROL: unmasked documents, NO role filter
+================================================================
+Answer questions: 13 | top-1 correct doc: 8 | all expected docs in top-3: 11
+Top-1 text contains the answer string: 8 of 12
+Deny questions: 6 | forbidden documents retrieved: 7
+Identifiers visible in retrieved text (all questions): 124
+Per question:
+  Q01 receptionist answer  top1=Y hit@3=Y  got=['AR-P01', 'BS-P01', 'RL-P01']
+  Q02 receptionist answer  top1=Y hit@3=Y  got=['AR-P02', 'BS-P02', 'RL-P02']
+  Q03 receptionist answer  top1=Y hit@3=Y  got=['AR-P03', 'BS-P03', 'RL-P03']
+  Q04 receptionist answer  top1=Y hit@3=Y  got=['AR-P04', 'BS-P04', 'RL-P04']
+  Q05 clinician    answer  top1=N hit@3=Y  got=['BS-P05', 'AR-P05', 'VN-P05']
+  Q06 clinician    answer  top1=N hit@3=Y  got=['BS-P06', 'AR-P06', 'VN-P06']
+  Q07 clinician    answer  top1=N hit@3=Y  got=['BS-P07', 'AR-P07', 'VN-P07']
+  Q08 receptionist deny    forbidden retrieved=['VN-P08']  got=['BS-P08', 'AR-P08', 'VN-P08']
+  Q09 receptionist deny    forbidden retrieved=['VN-P09']  got=['BS-P09', 'AR-P09', 'VN-P09']
+  Q10 receptionist deny    forbidden retrieved=['VN-P10']  got=['BS-P10', 'AR-P10', 'VN-P10']
+  Q11 clinician    deny    forbidden retrieved=['BS-P01']  got=['BS-P01', 'AR-P01', 'RL-P01']
+  Q12 clinician    deny    forbidden retrieved=['BS-P02']  got=['BS-P02', 'AR-P02', 'RL-P02']
+  Q13 receptionist answer  top1=Y hit@3=Y  got=['BS-P03', 'AR-P03', 'RL-P03']
+  Q14 receptionist answer  top1=Y hit@3=Y  got=['BS-P04', 'AR-P04', 'RL-P04']
+  Q15 receptionist answer  top1=Y hit@3=Y  got=['POL-01', 'POL-06', 'POL-05']
+  Q16 dpo          answer  top1=N hit@3=N  got=['POL-01', 'DL-P07', 'DL-P05']
+  Q17 clinician    answer  top1=Y hit@3=Y  got=['POL-05', 'POL-02']
+  Q18 dpo          answer  top1=N hit@3=N  got=['POL-03', 'DL-P07', 'DL-P06']
+  Q19 clinician    deny    forbidden retrieved=['DL-P07', 'DL-P06']  got=['POL-03', 'DL-P07', 'DL-P06']
