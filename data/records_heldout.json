@@ -1,0 +1,2297 @@
+[
+ {
+  "id": 1,
+  "tag": "id_label_before",
+  "text": "Referral for Grace Korir, ID number 9990608. Claim 7135241 was submitted on 19/01/2026.",
+  "entities": [
+   [
+    "Grace Korir",
+    "PERSON"
+   ],
+   [
+    "9990608",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 2,
+  "tag": "id_label_after",
+  "text": "Records for John Otieno - 66126116 (national ID) were updated on 03/04/2026.",
+  "entities": [
+   [
+    "John Otieno",
+    "PERSON"
+   ],
+   [
+    "66126116",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 3,
+  "tag": "id_label_before",
+  "text": "Cheptoo Wekesa (ID No: 4745328) can be reached on 0783713984. Appointment ref 4709137.",
+  "entities": [
+   [
+    "Cheptoo Wekesa",
+    "PERSON"
+   ],
+   [
+    "4745328",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0783713984",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 4,
+  "tag": "id_label_before",
+  "text": "Patient Njeri Cheptoo, national ID 29361589, phone 0783-423-466, invoice 2728987.",
+  "entities": [
+   [
+    "Njeri Cheptoo",
+    "PERSON"
+   ],
+   [
+    "29361589",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0783-423-466",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 5,
+  "tag": "phone_name_only",
+  "text": "Reminder: call Odhiambo Mutua on +254780846702 to confirm the 19/01/2026 appointment.",
+  "entities": [
+   [
+    "Odhiambo Mutua",
+    "PERSON"
+   ],
+   [
+    "+254780846702",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 6,
+  "tag": "phone_name_only",
+  "text": "Reminder: call J. Maina on 0169714006 to confirm the 12/05/2026 appointment.",
+  "entities": [
+   [
+    "J. Maina",
+    "PERSON"
+   ],
+   [
+    "0169714006",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 7,
+  "tag": "id_label_before",
+  "text": "Fatuma Chebet presented national ID 80490681 at reception. Receipt number 56100526.",
+  "entities": [
+   [
+    "Fatuma Chebet",
+    "PERSON"
+   ],
+   [
+    "80490681",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 8,
+  "tag": "decoy_only",
+  "text": "Billing code 48646352 was applied to claim 2980815 for the clinic.",
+  "entities": []
+ },
+ {
+  "id": 9,
+  "tag": "id_label_after",
+  "text": "Records for Hassan Amina - 9203439 (national ID) were updated on 14/01/2026.",
+  "entities": [
+   [
+    "Hassan Amina",
+    "PERSON"
+   ],
+   [
+    "9203439",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 10,
+  "tag": "name_only",
+  "text": "Dr. Ndungu Aisha reviewed file 57000147 during the morning round.",
+  "entities": [
+   [
+    "Ndungu Aisha",
+    "PERSON"
+   ]
+  ]
+ },
+ {
+  "id": 11,
+  "tag": "phone_name_only",
+  "text": "Reminder: call Faith Akinyi on 254744597128 to confirm the 22/02/2026 appointment.",
+  "entities": [
+   [
+    "Faith Akinyi",
+    "PERSON"
+   ],
+   [
+    "254744597128",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 12,
+  "tag": "id_label_before",
+  "text": "Patient Akinyi Njeri, national ID 99745048, phone 0112 584 122, invoice 2964541.",
+  "entities": [
+   [
+    "Akinyi Njeri",
+    "PERSON"
+   ],
+   [
+    "99745048",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0112 584 122",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 13,
+  "tag": "id_no_label",
+  "text": "Visit note for 4660918: Njeri Njeri reported a headache. Call +254160620625 to follow up.",
+  "entities": [
+   [
+    "4660918",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "Njeri Njeri",
+    "PERSON"
+   ],
+   [
+    "+254160620625",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 14,
+  "tag": "id_label_before",
+  "text": "Please confirm the patient Korir Samuel, ID 8222954, on 254163476198.",
+  "entities": [
+   [
+    "Korir Samuel",
+    "PERSON"
+   ],
+   [
+    "8222954",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "254163476198",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 15,
+  "tag": "id_no_label",
+  "text": "Patient Mercy Njeri (3538365) was seen on 08/11/2026. Invoice 1202384 is pending.",
+  "entities": [
+   [
+    "Mercy Njeri",
+    "PERSON"
+   ],
+   [
+    "3538365",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 16,
+  "tag": "id_no_label",
+  "text": "Visit note for 5408156: Njeri Kamau reported a headache. Call 0178-487-190 to follow up.",
+  "entities": [
+   [
+    "5408156",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "Njeri Kamau",
+    "PERSON"
+   ],
+   [
+    "0178-487-190",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 17,
+  "tag": "phone_name_only",
+  "text": "Reminder: call Otieno Njeri on 0197-936-630 to confirm the 13/07/2026 appointment.",
+  "entities": [
+   [
+    "Otieno Njeri",
+    "PERSON"
+   ],
+   [
+    "0197-936-630",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 18,
+  "tag": "id_no_label",
+  "text": "Patient K. Mwangi (18354761) was seen on 07/02/2026. Invoice 8392492 is pending.",
+  "entities": [
+   [
+    "K. Mwangi",
+    "PERSON"
+   ],
+   [
+    "18354761",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 19,
+  "tag": "id_label_before",
+  "text": "Please confirm the patient Kevin Mutiso, ID 1003913, on 0778 206 393.",
+  "entities": [
+   [
+    "Kevin Mutiso",
+    "PERSON"
+   ],
+   [
+    "1003913",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0778 206 393",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 20,
+  "tag": "phone_name_only",
+  "text": "Reminder: call Wanjiru Mohamed on 0129 765 226 to confirm the 12/10/2026 appointment.",
+  "entities": [
+   [
+    "Wanjiru Mohamed",
+    "PERSON"
+   ],
+   [
+    "0129 765 226",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 21,
+  "tag": "id_label_before",
+  "text": "Referral for Faith Mwangi, ID number 72544046. Claim 74939188 was submitted on 10/02/2026.",
+  "entities": [
+   [
+    "Faith Mwangi",
+    "PERSON"
+   ],
+   [
+    "72544046",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 22,
+  "tag": "id_label_before",
+  "text": "Please confirm the patient Mutiso Kevin, ID 31667923, on 0736 653 918.",
+  "entities": [
+   [
+    "Mutiso Kevin",
+    "PERSON"
+   ],
+   [
+    "31667923",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0736 653 918",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 23,
+  "tag": "id_label_before",
+  "text": "Please confirm the patient Kamau Cheptoo, ID 5380786, on +254 131 472 974.",
+  "entities": [
+   [
+    "Kamau Cheptoo",
+    "PERSON"
+   ],
+   [
+    "5380786",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 131 472 974",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 24,
+  "tag": "id_label_after",
+  "text": "Records for Barasa Cheptoo - 4274007 (national ID) were updated on 26/04/2026.",
+  "entities": [
+   [
+    "Barasa Cheptoo",
+    "PERSON"
+   ],
+   [
+    "4274007",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 25,
+  "tag": "decoy_only",
+  "text": "Lab ticket 40432459 is awaiting results. Invoice 9684536 has been paid.",
+  "entities": []
+ },
+ {
+  "id": 26,
+  "tag": "id_no_label",
+  "text": "Visit note for 13889649: W. Kiprop reported a headache. Call 0134-826-161 to follow up.",
+  "entities": [
+   [
+    "13889649",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "W. Kiprop",
+    "PERSON"
+   ],
+   [
+    "0134-826-161",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 27,
+  "tag": "id_label_before",
+  "text": "Referral for Abdi Samuel, ID number 4698744. Claim 4805841 was submitted on 16/04/2026.",
+  "entities": [
+   [
+    "Abdi Samuel",
+    "PERSON"
+   ],
+   [
+    "4698744",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 28,
+  "tag": "id_label_before",
+  "text": "Referral for John Maina, ID number 97641229. Claim 96319863 was submitted on 03/11/2026.",
+  "entities": [
+   [
+    "John Maina",
+    "PERSON"
+   ],
+   [
+    "97641229",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 29,
+  "tag": "id_label_before",
+  "text": "K. Odhiambo (ID No: 8280054) can be reached on 254121939724. Appointment ref 72164355.",
+  "entities": [
+   [
+    "K. Odhiambo",
+    "PERSON"
+   ],
+   [
+    "8280054",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "254121939724",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 30,
+  "tag": "id_no_label",
+  "text": "Patient Aisha Hassan (1462193) was seen on 05/10/2026. Invoice 98027796 is pending.",
+  "entities": [
+   [
+    "Aisha Hassan",
+    "PERSON"
+   ],
+   [
+    "1462193",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 31,
+  "tag": "id_label_before",
+  "text": "Please confirm the patient Maina Naliaka, ID 3197544, on 254711938186.",
+  "entities": [
+   [
+    "Maina Naliaka",
+    "PERSON"
+   ],
+   [
+    "3197544",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "254711938186",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 32,
+  "tag": "name_only",
+  "text": "Dr. Kevin Barasa reviewed file 36146343 during the morning round.",
+  "entities": [
+   [
+    "Kevin Barasa",
+    "PERSON"
+   ]
+  ]
+ },
+ {
+  "id": 33,
+  "tag": "decoy_only",
+  "text": "Lab ticket 1469656 is awaiting results. Invoice 38558820 has been paid.",
+  "entities": []
+ },
+ {
+  "id": 34,
+  "tag": "id_label_before",
+  "text": "Contact Chebet Hassan on +254 179 539 366. Identity card number: 6935510.",
+  "entities": [
+   [
+    "Chebet Hassan",
+    "PERSON"
+   ],
+   [
+    "+254 179 539 366",
+    "PHONE_NUMBER"
+   ],
+   [
+    "6935510",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 35,
+  "tag": "id_no_label",
+  "text": "Visit note for 77330181: Grace Ndungu reported a headache. Call +254 766 914 225 to follow up.",
+  "entities": [
+   [
+    "77330181",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "Grace Ndungu",
+    "PERSON"
+   ],
+   [
+    "+254 766 914 225",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 36,
+  "tag": "phone_name_only",
+  "text": "Reminder: call Wanjiru Njeri on 254770749174 to confirm the 04/09/2026 appointment.",
+  "entities": [
+   [
+    "Wanjiru Njeri",
+    "PERSON"
+   ],
+   [
+    "254770749174",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 37,
+  "tag": "id_label_before",
+  "text": "Patient O. Barasa, national ID 1953324, phone +254734390368, invoice 9518027.",
+  "entities": [
+   [
+    "O. Barasa",
+    "PERSON"
+   ],
+   [
+    "1953324",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254734390368",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 38,
+  "tag": "id_no_label",
+  "text": "Visit note for 2063152: Samuel Mutiso reported a headache. Call 0167-632-840 to follow up.",
+  "entities": [
+   [
+    "2063152",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "Samuel Mutiso",
+    "PERSON"
+   ],
+   [
+    "0167-632-840",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 39,
+  "tag": "decoy_only",
+  "text": "Pharmacy order 78149300 was dispatched on 08/12/2026.",
+  "entities": []
+ },
+ {
+  "id": 40,
+  "tag": "id_label_after",
+  "text": "Records for Peter Ndungu - 28405872 (national ID) were updated on 14/02/2026.",
+  "entities": [
+   [
+    "Peter Ndungu",
+    "PERSON"
+   ],
+   [
+    "28405872",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 41,
+  "tag": "id_no_label",
+  "text": "Patient Samuel Mutiso (8186330) was seen on 03/04/2026. Invoice 26421523 is pending.",
+  "entities": [
+   [
+    "Samuel Mutiso",
+    "PERSON"
+   ],
+   [
+    "8186330",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 42,
+  "tag": "decoy_only",
+  "text": "Pharmacy order 7143536 was dispatched on 05/05/2026.",
+  "entities": []
+ },
+ {
+  "id": 43,
+  "tag": "id_label_before",
+  "text": "Please confirm the patient Samuel Chebet, ID 75399034, on +254 795 972 881.",
+  "entities": [
+   [
+    "Samuel Chebet",
+    "PERSON"
+   ],
+   [
+    "75399034",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 795 972 881",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 44,
+  "tag": "id_label_before",
+  "text": "Please confirm the patient A. Barasa, ID 66542771, on +254755433998.",
+  "entities": [
+   [
+    "A. Barasa",
+    "PERSON"
+   ],
+   [
+    "66542771",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254755433998",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 45,
+  "tag": "decoy_only",
+  "text": "Billing code 12614954 was applied to claim 84363365 for the clinic.",
+  "entities": []
+ },
+ {
+  "id": 46,
+  "tag": "id_no_label",
+  "text": "Visit note for 12426922: Mutiso Kiptoo reported a headache. Call +254 724 926 658 to follow up.",
+  "entities": [
+   [
+    "12426922",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "Mutiso Kiptoo",
+    "PERSON"
+   ],
+   [
+    "+254 724 926 658",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 47,
+  "tag": "id_label_before",
+  "text": "Kiprop Aisha (ID No: 4045926) can be reached on 0126959598. Appointment ref 64485395.",
+  "entities": [
+   [
+    "Kiprop Aisha",
+    "PERSON"
+   ],
+   [
+    "4045926",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0126959598",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 48,
+  "tag": "id_label_before",
+  "text": "Please confirm the patient C. Barasa, ID 22007414, on 254117938428.",
+  "entities": [
+   [
+    "C. Barasa",
+    "PERSON"
+   ],
+   [
+    "22007414",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "254117938428",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 49,
+  "tag": "id_label_before",
+  "text": "Please confirm the patient Mohamed Amina, ID 2485889, on +254 120 737 720.",
+  "entities": [
+   [
+    "Mohamed Amina",
+    "PERSON"
+   ],
+   [
+    "2485889",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 120 737 720",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 50,
+  "tag": "id_label_before",
+  "text": "P. Mwangi (ID No: 6690022) can be reached on +254 144 751 903. Appointment ref 9840167.",
+  "entities": [
+   [
+    "P. Mwangi",
+    "PERSON"
+   ],
+   [
+    "6690022",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 144 751 903",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 51,
+  "tag": "decoy_only",
+  "text": "Billing code 2836290 was applied to claim 5393873 for the clinic.",
+  "entities": []
+ },
+ {
+  "id": 52,
+  "tag": "id_label_before",
+  "text": "Patient Odhiambo Fatuma, national ID 81281134, phone 0747-567-336, invoice 5538612.",
+  "entities": [
+   [
+    "Odhiambo Fatuma",
+    "PERSON"
+   ],
+   [
+    "81281134",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0747-567-336",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 53,
+  "tag": "id_label_before",
+  "text": "Referral for Wanjiru Kiprop, ID number 1309269. Claim 9627430 was submitted on 16/04/2026.",
+  "entities": [
+   [
+    "Wanjiru Kiprop",
+    "PERSON"
+   ],
+   [
+    "1309269",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 54,
+  "tag": "id_no_label",
+  "text": "Visit note for 8250736: F. Ndungu reported a headache. Call +254 198 325 633 to follow up.",
+  "entities": [
+   [
+    "8250736",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "F. Ndungu",
+    "PERSON"
+   ],
+   [
+    "+254 198 325 633",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 55,
+  "tag": "id_label_before",
+  "text": "Referral for J. Njeri, ID number 17299905. Claim 1239161 was submitted on 03/11/2026.",
+  "entities": [
+   [
+    "J. Njeri",
+    "PERSON"
+   ],
+   [
+    "17299905",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 56,
+  "tag": "decoy_only",
+  "text": "Billing code 67813039 was applied to claim 1929476 for the clinic.",
+  "entities": []
+ },
+ {
+  "id": 57,
+  "tag": "id_label_before",
+  "text": "Barasa Kiptoo (ID No: 5916705) can be reached on +254 768 294 355. Appointment ref 69837566.",
+  "entities": [
+   [
+    "Barasa Kiptoo",
+    "PERSON"
+   ],
+   [
+    "5916705",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 768 294 355",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 58,
+  "tag": "id_label_before",
+  "text": "Patient Abdi Peter, national ID 42809053, phone 0749 328 448, invoice 1017933.",
+  "entities": [
+   [
+    "Abdi Peter",
+    "PERSON"
+   ],
+   [
+    "42809053",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0749 328 448",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 59,
+  "tag": "id_label_before",
+  "text": "Referral for K. Mohamed, ID number 77479842. Claim 5163759 was submitted on 17/01/2026.",
+  "entities": [
+   [
+    "K. Mohamed",
+    "PERSON"
+   ],
+   [
+    "77479842",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 60,
+  "tag": "id_label_before",
+  "text": "Peter Mohamed (ID No: 88759061) can be reached on 0760 123 586. Appointment ref 94512860.",
+  "entities": [
+   [
+    "Peter Mohamed",
+    "PERSON"
+   ],
+   [
+    "88759061",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0760 123 586",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 61,
+  "tag": "id_label_before",
+  "text": "Aisha Barasa presented national ID 53773065 at reception. Receipt number 30060604.",
+  "entities": [
+   [
+    "Aisha Barasa",
+    "PERSON"
+   ],
+   [
+    "53773065",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 62,
+  "tag": "id_label_before",
+  "text": "Contact Naliaka Njeri on 0199-951-673. Identity card number: 9787189.",
+  "entities": [
+   [
+    "Naliaka Njeri",
+    "PERSON"
+   ],
+   [
+    "0199-951-673",
+    "PHONE_NUMBER"
+   ],
+   [
+    "9787189",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 63,
+  "tag": "decoy_only",
+  "text": "Pharmacy order 4857765 was dispatched on 03/01/2026.",
+  "entities": []
+ },
+ {
+  "id": 64,
+  "tag": "id_label_before",
+  "text": "Patient Grace Abdi, national ID 70584027, phone 254790119755, invoice 9208996.",
+  "entities": [
+   [
+    "Grace Abdi",
+    "PERSON"
+   ],
+   [
+    "70584027",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "254790119755",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 65,
+  "tag": "id_label_before",
+  "text": "Contact Wanjiru Akinyi on +254794651540. Identity card number: 43848842.",
+  "entities": [
+   [
+    "Wanjiru Akinyi",
+    "PERSON"
+   ],
+   [
+    "+254794651540",
+    "PHONE_NUMBER"
+   ],
+   [
+    "43848842",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 66,
+  "tag": "decoy_only",
+  "text": "Pharmacy order 5455327 was dispatched on 08/12/2026.",
+  "entities": []
+ },
+ {
+  "id": 67,
+  "tag": "decoy_only",
+  "text": "Pharmacy order 4871109 was dispatched on 24/11/2026.",
+  "entities": []
+ },
+ {
+  "id": 68,
+  "tag": "id_no_label",
+  "text": "Visit note for 61346398: Maina Aisha reported a headache. Call 254788763531 to follow up.",
+  "entities": [
+   [
+    "61346398",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "Maina Aisha",
+    "PERSON"
+   ],
+   [
+    "254788763531",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 69,
+  "tag": "id_label_before",
+  "text": "Njeri Aisha presented national ID 97447461 at reception. Receipt number 93369442.",
+  "entities": [
+   [
+    "Njeri Aisha",
+    "PERSON"
+   ],
+   [
+    "97447461",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 70,
+  "tag": "phone_name_only",
+  "text": "Reminder: call G. Kamau on 254772381828 to confirm the 04/12/2026 appointment.",
+  "entities": [
+   [
+    "G. Kamau",
+    "PERSON"
+   ],
+   [
+    "254772381828",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 71,
+  "tag": "id_label_before",
+  "text": "Wafula Faith presented national ID 72531718 at reception. Receipt number 25905184.",
+  "entities": [
+   [
+    "Wafula Faith",
+    "PERSON"
+   ],
+   [
+    "72531718",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 72,
+  "tag": "id_label_after",
+  "text": "Records for John Wafula - 12349408 (national ID) were updated on 10/08/2026.",
+  "entities": [
+   [
+    "John Wafula",
+    "PERSON"
+   ],
+   [
+    "12349408",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 73,
+  "tag": "id_label_before",
+  "text": "Akinyi Hassan (ID No: 38163874) can be reached on +254719709717. Appointment ref 9792363.",
+  "entities": [
+   [
+    "Akinyi Hassan",
+    "PERSON"
+   ],
+   [
+    "38163874",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254719709717",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 74,
+  "tag": "id_label_before",
+  "text": "Contact Njeri Achieng on 0756342623. Identity card number: 62892592.",
+  "entities": [
+   [
+    "Njeri Achieng",
+    "PERSON"
+   ],
+   [
+    "0756342623",
+    "PHONE_NUMBER"
+   ],
+   [
+    "62892592",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 75,
+  "tag": "id_label_before",
+  "text": "Patient F. Kamau, national ID 64414461, phone 0128 536 397, invoice 52423277.",
+  "entities": [
+   [
+    "F. Kamau",
+    "PERSON"
+   ],
+   [
+    "64414461",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0128 536 397",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 76,
+  "tag": "id_label_before",
+  "text": "Kamau Otieno (ID No: 63453493) can be reached on +254735847659. Appointment ref 43985568.",
+  "entities": [
+   [
+    "Kamau Otieno",
+    "PERSON"
+   ],
+   [
+    "63453493",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254735847659",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 77,
+  "tag": "id_label_before",
+  "text": "Referral for A. Korir, ID number 7051698. Claim 46930712 was submitted on 28/01/2026.",
+  "entities": [
+   [
+    "A. Korir",
+    "PERSON"
+   ],
+   [
+    "7051698",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 78,
+  "tag": "id_label_before",
+  "text": "Contact Otieno Kevin on 0741378636. Identity card number: 35481107.",
+  "entities": [
+   [
+    "Otieno Kevin",
+    "PERSON"
+   ],
+   [
+    "0741378636",
+    "PHONE_NUMBER"
+   ],
+   [
+    "35481107",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 79,
+  "tag": "decoy_only",
+  "text": "Pharmacy order 67411315 was dispatched on 01/11/2026.",
+  "entities": []
+ },
+ {
+  "id": 80,
+  "tag": "id_no_label",
+  "text": "Patient Cheptoo Ndungu (1830070) was seen on 24/07/2026. Invoice 92532369 is pending.",
+  "entities": [
+   [
+    "Cheptoo Ndungu",
+    "PERSON"
+   ],
+   [
+    "1830070",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 81,
+  "tag": "decoy_only",
+  "text": "Pharmacy order 5801778 was dispatched on 16/01/2026.",
+  "entities": []
+ },
+ {
+  "id": 82,
+  "tag": "id_label_after",
+  "text": "Records for G. Hassan - 56125647 (national ID) were updated on 10/05/2026.",
+  "entities": [
+   [
+    "G. Hassan",
+    "PERSON"
+   ],
+   [
+    "56125647",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 83,
+  "tag": "id_label_before",
+  "text": "Contact Peter Korir on 254171684394. Identity card number: 26071569.",
+  "entities": [
+   [
+    "Peter Korir",
+    "PERSON"
+   ],
+   [
+    "254171684394",
+    "PHONE_NUMBER"
+   ],
+   [
+    "26071569",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 84,
+  "tag": "id_label_before",
+  "text": "Please confirm the patient Fatuma Mohamed, ID 83871631, on 0767449002.",
+  "entities": [
+   [
+    "Fatuma Mohamed",
+    "PERSON"
+   ],
+   [
+    "83871631",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0767449002",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 85,
+  "tag": "id_no_label",
+  "text": "Patient Grace Ndungu (2521936) was seen on 06/06/2026. Invoice 6356759 is pending.",
+  "entities": [
+   [
+    "Grace Ndungu",
+    "PERSON"
+   ],
+   [
+    "2521936",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 86,
+  "tag": "id_label_before",
+  "text": "Achieng Kiprop presented national ID 7925327 at reception. Receipt number 65550512.",
+  "entities": [
+   [
+    "Achieng Kiprop",
+    "PERSON"
+   ],
+   [
+    "7925327",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 87,
+  "tag": "decoy_only",
+  "text": "Billing code 7322759 was applied to claim 55392851 for the clinic.",
+  "entities": []
+ },
+ {
+  "id": 88,
+  "tag": "decoy_only",
+  "text": "Pharmacy order 9357501 was dispatched on 09/10/2026.",
+  "entities": []
+ },
+ {
+  "id": 89,
+  "tag": "id_label_before",
+  "text": "Referral for Grace Barasa, ID number 5546975. Claim 7451858 was submitted on 13/11/2026.",
+  "entities": [
+   [
+    "Grace Barasa",
+    "PERSON"
+   ],
+   [
+    "5546975",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 90,
+  "tag": "id_no_label",
+  "text": "Visit note for 51878080: Wanjiru Njeri reported a headache. Call 0170715699 to follow up.",
+  "entities": [
+   [
+    "51878080",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "Wanjiru Njeri",
+    "PERSON"
+   ],
+   [
+    "0170715699",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 91,
+  "tag": "id_label_before",
+  "text": "Patient A. Korir, national ID 43348445, phone +254 738 261 877, invoice 8672641.",
+  "entities": [
+   [
+    "A. Korir",
+    "PERSON"
+   ],
+   [
+    "43348445",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 738 261 877",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 92,
+  "tag": "id_label_before",
+  "text": "Cheptoo Otieno (ID No: 4901991) can be reached on 0792 849 754. Appointment ref 5224401.",
+  "entities": [
+   [
+    "Cheptoo Otieno",
+    "PERSON"
+   ],
+   [
+    "4901991",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0792 849 754",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 93,
+  "tag": "id_label_after",
+  "text": "Records for Amina Mwangi - 6039024 (national ID) were updated on 17/10/2026.",
+  "entities": [
+   [
+    "Amina Mwangi",
+    "PERSON"
+   ],
+   [
+    "6039024",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 94,
+  "tag": "id_label_before",
+  "text": "Kiptoo Kiprop presented national ID 1175517 at reception. Receipt number 71832849.",
+  "entities": [
+   [
+    "Kiptoo Kiprop",
+    "PERSON"
+   ],
+   [
+    "1175517",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 95,
+  "tag": "id_label_before",
+  "text": "Contact O. Chebet on +254780359059. Identity card number: 97194544.",
+  "entities": [
+   [
+    "O. Chebet",
+    "PERSON"
+   ],
+   [
+    "+254780359059",
+    "PHONE_NUMBER"
+   ],
+   [
+    "97194544",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 96,
+  "tag": "id_label_before",
+  "text": "Contact Brian Kamau on 0196778605. Identity card number: 5316041.",
+  "entities": [
+   [
+    "Brian Kamau",
+    "PERSON"
+   ],
+   [
+    "0196778605",
+    "PHONE_NUMBER"
+   ],
+   [
+    "5316041",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 97,
+  "tag": "id_label_before",
+  "text": "Amina Abdi presented national ID 14576478 at reception. Receipt number 66446184.",
+  "entities": [
+   [
+    "Amina Abdi",
+    "PERSON"
+   ],
+   [
+    "14576478",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 98,
+  "tag": "id_label_before",
+  "text": "Referral for Kiptoo Odhiambo, ID number 77763630. Claim 4442996 was submitted on 16/04/2026.",
+  "entities": [
+   [
+    "Kiptoo Odhiambo",
+    "PERSON"
+   ],
+   [
+    "77763630",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 99,
+  "tag": "id_label_before",
+  "text": "Contact J. Chebet on 0743 897 411. Identity card number: 9317551.",
+  "entities": [
+   [
+    "J. Chebet",
+    "PERSON"
+   ],
+   [
+    "0743 897 411",
+    "PHONE_NUMBER"
+   ],
+   [
+    "9317551",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 100,
+  "tag": "phone_name_only",
+  "text": "Reminder: call F. Chebet on 0195-159-157 to confirm the 05/07/2026 appointment.",
+  "entities": [
+   [
+    "F. Chebet",
+    "PERSON"
+   ],
+   [
+    "0195-159-157",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 101,
+  "tag": "id_label_before",
+  "text": "Patient John Kamau, national ID 16957919, phone 0733512427, invoice 25194192.",
+  "entities": [
+   [
+    "John Kamau",
+    "PERSON"
+   ],
+   [
+    "16957919",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0733512427",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 102,
+  "tag": "id_label_before",
+  "text": "Fatuma Mutiso (ID No: 9804642) can be reached on 254114426974. Appointment ref 60181809.",
+  "entities": [
+   [
+    "Fatuma Mutiso",
+    "PERSON"
+   ],
+   [
+    "9804642",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "254114426974",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 103,
+  "tag": "id_label_before",
+  "text": "Referral for Samuel Hassan, ID number 2312683. Claim 20839822 was submitted on 12/07/2026.",
+  "entities": [
+   [
+    "Samuel Hassan",
+    "PERSON"
+   ],
+   [
+    "2312683",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 104,
+  "tag": "id_label_before",
+  "text": "C. Odhiambo (ID No: 51432906) can be reached on 254121151650. Appointment ref 36268534.",
+  "entities": [
+   [
+    "C. Odhiambo",
+    "PERSON"
+   ],
+   [
+    "51432906",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "254121151650",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 105,
+  "tag": "id_label_before",
+  "text": "Referral for Cheptoo Akinyi, ID number 58888654. Claim 14064388 was submitted on 21/07/2026.",
+  "entities": [
+   [
+    "Cheptoo Akinyi",
+    "PERSON"
+   ],
+   [
+    "58888654",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 106,
+  "tag": "id_label_before",
+  "text": "K. Otieno presented national ID 8785477 at reception. Receipt number 2040252.",
+  "entities": [
+   [
+    "K. Otieno",
+    "PERSON"
+   ],
+   [
+    "8785477",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 107,
+  "tag": "id_label_before",
+  "text": "Contact Mohamed John on 0144-451-242. Identity card number: 5398524.",
+  "entities": [
+   [
+    "Mohamed John",
+    "PERSON"
+   ],
+   [
+    "0144-451-242",
+    "PHONE_NUMBER"
+   ],
+   [
+    "5398524",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 108,
+  "tag": "decoy_only",
+  "text": "Billing code 46994476 was applied to claim 10506217 for the clinic.",
+  "entities": []
+ },
+ {
+  "id": 109,
+  "tag": "decoy_only",
+  "text": "Billing code 1406959 was applied to claim 2799547 for the clinic.",
+  "entities": []
+ },
+ {
+  "id": 110,
+  "tag": "id_no_label",
+  "text": "Visit note for 61877136: P. Wekesa reported a headache. Call +254773291825 to follow up.",
+  "entities": [
+   [
+    "61877136",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "P. Wekesa",
+    "PERSON"
+   ],
+   [
+    "+254773291825",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 111,
+  "tag": "decoy_only",
+  "text": "Pharmacy order 30309186 was dispatched on 20/04/2026.",
+  "entities": []
+ },
+ {
+  "id": 112,
+  "tag": "id_label_before",
+  "text": "Referral for Akinyi Otieno, ID number 9588001. Claim 7571390 was submitted on 25/03/2026.",
+  "entities": [
+   [
+    "Akinyi Otieno",
+    "PERSON"
+   ],
+   [
+    "9588001",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 113,
+  "tag": "id_label_before",
+  "text": "Amina Mohamed presented national ID 84167997 at reception. Receipt number 31567766.",
+  "entities": [
+   [
+    "Amina Mohamed",
+    "PERSON"
+   ],
+   [
+    "84167997",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 114,
+  "tag": "id_no_label",
+  "text": "Patient Mohamed Kevin (4495382) was seen on 04/07/2026. Invoice 69990372 is pending.",
+  "entities": [
+   [
+    "Mohamed Kevin",
+    "PERSON"
+   ],
+   [
+    "4495382",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 115,
+  "tag": "id_label_before",
+  "text": "Please confirm the patient M. Njeri, ID 93256282, on 254778988130.",
+  "entities": [
+   [
+    "M. Njeri",
+    "PERSON"
+   ],
+   [
+    "93256282",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "254778988130",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 116,
+  "tag": "decoy_only",
+  "text": "Pharmacy order 5931216 was dispatched on 10/05/2026.",
+  "entities": []
+ },
+ {
+  "id": 117,
+  "tag": "phone_name_only",
+  "text": "Reminder: call Abdi Peter on +254 135 560 741 to confirm the 06/04/2026 appointment.",
+  "entities": [
+   [
+    "Abdi Peter",
+    "PERSON"
+   ],
+   [
+    "+254 135 560 741",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 118,
+  "tag": "id_label_before",
+  "text": "Grace Wafula presented national ID 18697858 at reception. Receipt number 43776393.",
+  "entities": [
+   [
+    "Grace Wafula",
+    "PERSON"
+   ],
+   [
+    "18697858",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 119,
+  "tag": "id_label_before",
+  "text": "Hassan Barasa presented national ID 8783213 at reception. Receipt number 2716853.",
+  "entities": [
+   [
+    "Hassan Barasa",
+    "PERSON"
+   ],
+   [
+    "8783213",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 120,
+  "tag": "id_label_before",
+  "text": "Patient F. Chebet, national ID 15417277, phone +254139225007, invoice 4257491.",
+  "entities": [
+   [
+    "F. Chebet",
+    "PERSON"
+   ],
+   [
+    "15417277",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254139225007",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 121,
+  "tag": "id_label_before",
+  "text": "Achieng Barasa (ID No: 90938952) can be reached on +254195106647. Appointment ref 39211874.",
+  "entities": [
+   [
+    "Achieng Barasa",
+    "PERSON"
+   ],
+   [
+    "90938952",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254195106647",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 122,
+  "tag": "id_label_before",
+  "text": "Patient Achieng Mutiso, national ID 4422156, phone 254114728540, invoice 1190921.",
+  "entities": [
+   [
+    "Achieng Mutiso",
+    "PERSON"
+   ],
+   [
+    "4422156",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "254114728540",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 123,
+  "tag": "decoy_only",
+  "text": "Lab ticket 64894365 is awaiting results. Invoice 34849754 has been paid.",
+  "entities": []
+ },
+ {
+  "id": 124,
+  "tag": "phone_name_only",
+  "text": "Reminder: call Njeri Mohamed on 0773674666 to confirm the 03/07/2026 appointment.",
+  "entities": [
+   [
+    "Njeri Mohamed",
+    "PERSON"
+   ],
+   [
+    "0773674666",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 125,
+  "tag": "id_label_before",
+  "text": "Kiptoo Ndungu (ID No: 3746251) can be reached on 0199384339. Appointment ref 99632067.",
+  "entities": [
+   [
+    "Kiptoo Ndungu",
+    "PERSON"
+   ],
+   [
+    "3746251",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0199384339",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 126,
+  "tag": "id_label_before",
+  "text": "Contact Otieno Amina on +254163536674. Identity card number: 96500401.",
+  "entities": [
+   [
+    "Otieno Amina",
+    "PERSON"
+   ],
+   [
+    "+254163536674",
+    "PHONE_NUMBER"
+   ],
+   [
+    "96500401",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 127,
+  "tag": "id_label_before",
+  "text": "Kiptoo Korir presented national ID 8284067 at reception. Receipt number 8109425.",
+  "entities": [
+   [
+    "Kiptoo Korir",
+    "PERSON"
+   ],
+   [
+    "8284067",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 128,
+  "tag": "id_label_before",
+  "text": "Korir Aisha (ID No: 31816364) can be reached on 0711-154-206. Appointment ref 7655842.",
+  "entities": [
+   [
+    "Korir Aisha",
+    "PERSON"
+   ],
+   [
+    "31816364",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0711-154-206",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 129,
+  "tag": "id_label_before",
+  "text": "Mutua Abdi (ID No: 6837547) can be reached on +254 130 646 474. Appointment ref 2825241.",
+  "entities": [
+   [
+    "Mutua Abdi",
+    "PERSON"
+   ],
+   [
+    "6837547",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 130 646 474",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 130,
+  "tag": "id_no_label",
+  "text": "Patient Odhiambo Faith (1729764) was seen on 16/06/2026. Invoice 7507801 is pending.",
+  "entities": [
+   [
+    "Odhiambo Faith",
+    "PERSON"
+   ],
+   [
+    "1729764",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 131,
+  "tag": "id_label_before",
+  "text": "Naliaka Hassan (ID No: 92507543) can be reached on 0770-291-853. Appointment ref 1699820.",
+  "entities": [
+   [
+    "Naliaka Hassan",
+    "PERSON"
+   ],
+   [
+    "92507543",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0770-291-853",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 132,
+  "tag": "id_no_label",
+  "text": "Patient H. Hassan (26516391) was seen on 05/04/2026. Invoice 1689527 is pending.",
+  "entities": [
+   [
+    "H. Hassan",
+    "PERSON"
+   ],
+   [
+    "26516391",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 133,
+  "tag": "id_label_after",
+  "text": "Records for Brian Mutiso - 90466181 (national ID) were updated on 15/09/2026.",
+  "entities": [
+   [
+    "Brian Mutiso",
+    "PERSON"
+   ],
+   [
+    "90466181",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 134,
+  "tag": "decoy_only",
+  "text": "Lab ticket 97111044 is awaiting results. Invoice 51367463 has been paid.",
+  "entities": []
+ },
+ {
+  "id": 135,
+  "tag": "phone_name_only",
+  "text": "Reminder: call M. Wekesa on 0167628040 to confirm the 06/01/2026 appointment.",
+  "entities": [
+   [
+    "M. Wekesa",
+    "PERSON"
+   ],
+   [
+    "0167628040",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 136,
+  "tag": "id_label_before",
+  "text": "Patient N. Maina, national ID 8496376, phone 0132949901, invoice 24371507.",
+  "entities": [
+   [
+    "N. Maina",
+    "PERSON"
+   ],
+   [
+    "8496376",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0132949901",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 137,
+  "tag": "id_label_before",
+  "text": "G. Abdi (ID No: 22309529) can be reached on 254174634942. Appointment ref 1682021.",
+  "entities": [
+   [
+    "G. Abdi",
+    "PERSON"
+   ],
+   [
+    "22309529",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "254174634942",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 138,
+  "tag": "name_only",
+  "text": "Dr. Mohamed Grace reviewed file 1910414 during the morning round.",
+  "entities": [
+   [
+    "Mohamed Grace",
+    "PERSON"
+   ]
+  ]
+ },
+ {
+  "id": 139,
+  "tag": "decoy_only",
+  "text": "Pharmacy order 97610038 was dispatched on 26/03/2026.",
+  "entities": []
+ },
+ {
+  "id": 140,
+  "tag": "id_label_before",
+  "text": "Patient Aisha Mwangi, national ID 9252208, phone 254131819463, invoice 2099179.",
+  "entities": [
+   [
+    "Aisha Mwangi",
+    "PERSON"
+   ],
+   [
+    "9252208",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "254131819463",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 141,
+  "tag": "decoy_only",
+  "text": "Lab ticket 91932492 is awaiting results. Invoice 31309406 has been paid.",
+  "entities": []
+ },
+ {
+  "id": 142,
+  "tag": "id_label_before",
+  "text": "Referral for N. Kiprop, ID number 5264120. Claim 37960685 was submitted on 19/05/2026.",
+  "entities": [
+   [
+    "N. Kiprop",
+    "PERSON"
+   ],
+   [
+    "5264120",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 143,
+  "tag": "phone_name_only",
+  "text": "Reminder: call Chebet Hassan on +254 114 308 605 to confirm the 13/03/2026 appointment.",
+  "entities": [
+   [
+    "Chebet Hassan",
+    "PERSON"
+   ],
+   [
+    "+254 114 308 605",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 144,
+  "tag": "name_only",
+  "text": "Dr. P. Mutiso reviewed file 5434903 during the morning round.",
+  "entities": [
+   [
+    "P. Mutiso",
+    "PERSON"
+   ]
+  ]
+ },
+ {
+  "id": 145,
+  "tag": "id_label_before",
+  "text": "Otieno Hassan (ID No: 84515014) can be reached on 254742661723. Appointment ref 59857352.",
+  "entities": [
+   [
+    "Otieno Hassan",
+    "PERSON"
+   ],
+   [
+    "84515014",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "254742661723",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 146,
+  "tag": "id_label_before",
+  "text": "Contact Kiptoo Abdi on +254152901782. Identity card number: 40876426.",
+  "entities": [
+   [
+    "Kiptoo Abdi",
+    "PERSON"
+   ],
+   [
+    "+254152901782",
+    "PHONE_NUMBER"
+   ],
+   [
+    "40876426",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 147,
+  "tag": "id_label_before",
+  "text": "Please confirm the patient Otieno Naliaka, ID 51617218, on +254110883411.",
+  "entities": [
+   [
+    "Otieno Naliaka",
+    "PERSON"
+   ],
+   [
+    "51617218",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254110883411",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 148,
+  "tag": "id_label_before",
+  "text": "G. Wafula presented national ID 78810474 at reception. Receipt number 16412435.",
+  "entities": [
+   [
+    "G. Wafula",
+    "PERSON"
+   ],
+   [
+    "78810474",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "id": 149,
+  "tag": "id_label_before",
+  "text": "Please confirm the patient Faith Chebet, ID 1912563, on 0782 472 205.",
+  "entities": [
+   [
+    "Faith Chebet",
+    "PERSON"
+   ],
+   [
+    "1912563",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0782 472 205",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "id": 150,
+  "tag": "id_label_before",
+  "text": "Hassan Abdi (ID No: 88328247) can be reached on +254 185 240 222. Appointment ref 93742407.",
+  "entities": [
+   [
+    "Hassan Abdi",
+    "PERSON"
+   ],
+   [
+    "88328247",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 185 240 222",
+    "PHONE_NUMBER"
+   ]
+  ]
+ }
+]

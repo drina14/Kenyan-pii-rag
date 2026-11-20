@@ -30,7 +30,7 @@ def ke_phone_recogniser():
         supported_language="en",
     )
 
-def build_ke_analyzer(prefix=3, suffix=0):
+def build_ke_analyzer(prefix=3, suffix=2):
     enhancer = LemmaContextAwareEnhancer(
         context_prefix_count=prefix, context_suffix_count=suffix
     )

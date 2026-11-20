@@ -3,7 +3,10 @@ import random
 import re
 from collections import Counter
 
-random.seed(42)  
+import sys
+SEED = int(sys.argv[1]) if len(sys.argv) > 1 else 42
+OUT = sys.argv[2] if len(sys.argv) > 2 else "data/records_large.json"
+random.seed(SEED)
 
 FIRST = ["Wanjiru", "Brian", "Aisha", "Kevin", "Grace", "Fatuma", "John", "Mercy", "Peter",
          "Njeri", "Otieno", "Achieng", "Kiptoo", "Amina", "Samuel", "Faith", "Hassan", "Cheptoo",
@@ -96,9 +99,9 @@ for i in range(1, 151):
     tag, template = random.choice(TEMPLATES)
     records.append(build(tag, template, i))
 
-json.dump(records, open("data/records_large.json", "w", encoding="utf-8"), indent=1)
+json.dump(records, open(OUT, "w", encoding="utf-8"), indent=1)
 
-print(f"{len(records)} records written to data/records_large.json")
+print(f"{len(records)} records written to {OUT} (seed {SEED})")
 print("By tag:", dict(Counter(r["tag"] for r in records)))
 print("Entities:", dict(Counter(e[1] for r in records for e in r["entities"])))
 print("Example:", records[0]["text"])
