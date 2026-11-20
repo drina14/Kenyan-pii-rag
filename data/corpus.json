@@ -1,0 +1,1015 @@
+[
+ {
+  "doc_id": "VN-P01",
+  "type": "visit_note",
+  "allowed_roles": [
+   "clinician"
+  ],
+  "patient": "P01",
+  "text": "Visit note. Date: 25/10/2026. Patient Mercy Kiprop, national ID 9864766, phone +254 717 137 384. Presenting complaint: a skin rash on the forearm. Plan: Advised rest and fluids and booked a review. Follow-up booked for 15/12/2026.",
+  "entities": [
+   [
+    "Mercy Kiprop",
+    "PERSON"
+   ],
+   [
+    "9864766",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 717 137 384",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "doc_id": "AR-P01",
+  "type": "appointment_reminder",
+  "allowed_roles": [
+   "receptionist",
+   "clinician"
+  ],
+  "patient": "P01",
+  "text": "Appointment reminder for Mercy Kiprop (phone +254 717 137 384). The follow-up visit is on 15/12/2026 at 10:00 am. Please bring national ID 9864766 and arrive 15 minutes early.",
+  "entities": [
+   [
+    "Mercy Kiprop",
+    "PERSON"
+   ],
+   [
+    "+254 717 137 384",
+    "PHONE_NUMBER"
+   ],
+   [
+    "9864766",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "BS-P01",
+  "type": "billing_summary",
+  "allowed_roles": [
+   "receptionist"
+  ],
+  "patient": "P01",
+  "text": "Billing summary. Patient Mercy Kiprop, ID 9864766. Invoice 69127085 for KES 5,000 was issued on 25/10/2026. Payment status: paid.",
+  "entities": [
+   [
+    "Mercy Kiprop",
+    "PERSON"
+   ],
+   [
+    "9864766",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "VN-P02",
+  "type": "visit_note",
+  "allowed_roles": [
+   "clinician"
+  ],
+  "patient": "P02",
+  "text": "Visit note. Date: 14/10/2026. Patient Peter Njeri, national ID 5935044, phone +254 110 794 628. Presenting complaint: a sore throat and mild fever. Plan: Ordered routine blood tests and a follow-up visit. Follow-up booked for 18/12/2026.",
+  "entities": [
+   [
+    "Peter Njeri",
+    "PERSON"
+   ],
+   [
+    "5935044",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 110 794 628",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "doc_id": "AR-P02",
+  "type": "appointment_reminder",
+  "allowed_roles": [
+   "receptionist",
+   "clinician"
+  ],
+  "patient": "P02",
+  "text": "Appointment reminder for Peter Njeri (phone +254 110 794 628). The follow-up visit is on 18/12/2026 at 8:30 am. Please bring national ID 5935044 and arrive 15 minutes early.",
+  "entities": [
+   [
+    "Peter Njeri",
+    "PERSON"
+   ],
+   [
+    "+254 110 794 628",
+    "PHONE_NUMBER"
+   ],
+   [
+    "5935044",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "BS-P02",
+  "type": "billing_summary",
+  "allowed_roles": [
+   "receptionist"
+  ],
+  "patient": "P02",
+  "text": "Billing summary. Patient Peter Njeri, ID 5935044. Invoice 44090597 for KES 3,500 was issued on 14/10/2026. Payment status: paid.",
+  "entities": [
+   [
+    "Peter Njeri",
+    "PERSON"
+   ],
+   [
+    "5935044",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "VN-P03",
+  "type": "visit_note",
+  "allowed_roles": [
+   "clinician"
+  ],
+  "patient": "P03",
+  "text": "Visit note. Date: 28/10/2026. Patient Naliaka Mohamed, national ID 13993234, phone +254 782 903 511. Presenting complaint: fatigue and poor sleep. Plan: Advised rest and fluids and booked a review. Follow-up booked for 10/12/2026.",
+  "entities": [
+   [
+    "Naliaka Mohamed",
+    "PERSON"
+   ],
+   [
+    "13993234",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 782 903 511",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "doc_id": "AR-P03",
+  "type": "appointment_reminder",
+  "allowed_roles": [
+   "receptionist",
+   "clinician"
+  ],
+  "patient": "P03",
+  "text": "Appointment reminder for Naliaka Mohamed (phone +254 782 903 511). The follow-up visit is on 10/12/2026 at 11:30 am. Please bring national ID 13993234 and arrive 15 minutes early.",
+  "entities": [
+   [
+    "Naliaka Mohamed",
+    "PERSON"
+   ],
+   [
+    "+254 782 903 511",
+    "PHONE_NUMBER"
+   ],
+   [
+    "13993234",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "BS-P03",
+  "type": "billing_summary",
+  "allowed_roles": [
+   "receptionist"
+  ],
+  "patient": "P03",
+  "text": "Billing summary. Patient Naliaka Mohamed, ID 13993234. Invoice 18969301 for KES 1,500 was issued on 28/10/2026. Payment status: paid.",
+  "entities": [
+   [
+    "Naliaka Mohamed",
+    "PERSON"
+   ],
+   [
+    "13993234",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "VN-P04",
+  "type": "visit_note",
+  "allowed_roles": [
+   "clinician"
+  ],
+  "patient": "P04",
+  "text": "Visit note. Date: 03/10/2026. Patient Faith Otieno, national ID 4518474, phone +254770493701. Presenting complaint: fatigue and poor sleep. Plan: Advised physiotherapy exercises and a review in two weeks. Follow-up booked for 19/12/2026.",
+  "entities": [
+   [
+    "Faith Otieno",
+    "PERSON"
+   ],
+   [
+    "4518474",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254770493701",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "doc_id": "AR-P04",
+  "type": "appointment_reminder",
+  "allowed_roles": [
+   "receptionist",
+   "clinician"
+  ],
+  "patient": "P04",
+  "text": "Appointment reminder for Faith Otieno (phone +254770493701). The follow-up visit is on 19/12/2026 at 3:45 pm. Please bring national ID 4518474 and arrive 15 minutes early.",
+  "entities": [
+   [
+    "Faith Otieno",
+    "PERSON"
+   ],
+   [
+    "+254770493701",
+    "PHONE_NUMBER"
+   ],
+   [
+    "4518474",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "BS-P04",
+  "type": "billing_summary",
+  "allowed_roles": [
+   "receptionist"
+  ],
+  "patient": "P04",
+  "text": "Billing summary. Patient Faith Otieno, ID 4518474. Invoice 36640894 for KES 3,500 was issued on 03/10/2026. Payment status: pending.",
+  "entities": [
+   [
+    "Faith Otieno",
+    "PERSON"
+   ],
+   [
+    "4518474",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "VN-P05",
+  "type": "visit_note",
+  "allowed_roles": [
+   "clinician"
+  ],
+  "patient": "P05",
+  "text": "Visit note. Date: 23/10/2026. Patient Hassan Wafula, national ID 6221231, phone +254 111 529 969. Presenting complaint: recurring headaches. Plan: Prescribed a short course of medication and advised rest. Follow-up booked for 04/12/2026.",
+  "entities": [
+   [
+    "Hassan Wafula",
+    "PERSON"
+   ],
+   [
+    "6221231",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 111 529 969",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "doc_id": "AR-P05",
+  "type": "appointment_reminder",
+  "allowed_roles": [
+   "receptionist",
+   "clinician"
+  ],
+  "patient": "P05",
+  "text": "Appointment reminder for Hassan Wafula (phone +254 111 529 969). The follow-up visit is on 04/12/2026 at 8:30 am. Please bring national ID 6221231 and arrive 15 minutes early.",
+  "entities": [
+   [
+    "Hassan Wafula",
+    "PERSON"
+   ],
+   [
+    "+254 111 529 969",
+    "PHONE_NUMBER"
+   ],
+   [
+    "6221231",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "BS-P05",
+  "type": "billing_summary",
+  "allowed_roles": [
+   "receptionist"
+  ],
+  "patient": "P05",
+  "text": "Billing summary. Patient Hassan Wafula, ID 6221231. Invoice 18038756 for KES 4,200 was issued on 23/10/2026. Payment status: pending.",
+  "entities": [
+   [
+    "Hassan Wafula",
+    "PERSON"
+   ],
+   [
+    "6221231",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "VN-P06",
+  "type": "visit_note",
+  "allowed_roles": [
+   "clinician"
+  ],
+  "patient": "P06",
+  "text": "Visit note. Date: 21/10/2026. Patient Kevin Kamau, national ID 4160583, phone +254175299947. Presenting complaint: recurring headaches. Plan: Advised physiotherapy exercises and a review in two weeks. Follow-up booked for 13/12/2026.",
+  "entities": [
+   [
+    "Kevin Kamau",
+    "PERSON"
+   ],
+   [
+    "4160583",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254175299947",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "doc_id": "AR-P06",
+  "type": "appointment_reminder",
+  "allowed_roles": [
+   "receptionist",
+   "clinician"
+  ],
+  "patient": "P06",
+  "text": "Appointment reminder for Kevin Kamau (phone +254175299947). The follow-up visit is on 13/12/2026 at 8:30 am. Please bring national ID 4160583 and arrive 15 minutes early.",
+  "entities": [
+   [
+    "Kevin Kamau",
+    "PERSON"
+   ],
+   [
+    "+254175299947",
+    "PHONE_NUMBER"
+   ],
+   [
+    "4160583",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "BS-P06",
+  "type": "billing_summary",
+  "allowed_roles": [
+   "receptionist"
+  ],
+  "patient": "P06",
+  "text": "Billing summary. Patient Kevin Kamau, ID 4160583. Invoice 62996322 for KES 4,200 was issued on 21/10/2026. Payment status: paid.",
+  "entities": [
+   [
+    "Kevin Kamau",
+    "PERSON"
+   ],
+   [
+    "4160583",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "VN-P07",
+  "type": "visit_note",
+  "allowed_roles": [
+   "clinician"
+  ],
+  "patient": "P07",
+  "text": "Visit note. Date: 02/10/2026. Patient Aisha Chebet, national ID 5526408, phone +254 112 320 945. Presenting complaint: fatigue and poor sleep. Plan: Advised rest and fluids and booked a review. Follow-up booked for 05/12/2026.",
+  "entities": [
+   [
+    "Aisha Chebet",
+    "PERSON"
+   ],
+   [
+    "5526408",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 112 320 945",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "doc_id": "AR-P07",
+  "type": "appointment_reminder",
+  "allowed_roles": [
+   "receptionist",
+   "clinician"
+  ],
+  "patient": "P07",
+  "text": "Appointment reminder for Aisha Chebet (phone +254 112 320 945). The follow-up visit is on 05/12/2026 at 9:15 am. Please bring national ID 5526408 and arrive 15 minutes early.",
+  "entities": [
+   [
+    "Aisha Chebet",
+    "PERSON"
+   ],
+   [
+    "+254 112 320 945",
+    "PHONE_NUMBER"
+   ],
+   [
+    "5526408",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "BS-P07",
+  "type": "billing_summary",
+  "allowed_roles": [
+   "receptionist"
+  ],
+  "patient": "P07",
+  "text": "Billing summary. Patient Aisha Chebet, ID 5526408. Invoice 69262721 for KES 3,500 was issued on 02/10/2026. Payment status: paid.",
+  "entities": [
+   [
+    "Aisha Chebet",
+    "PERSON"
+   ],
+   [
+    "5526408",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "VN-P08",
+  "type": "visit_note",
+  "allowed_roles": [
+   "clinician"
+  ],
+  "patient": "P08",
+  "text": "Visit note. Date: 01/10/2026. Patient John Mwangi, national ID 49772036, phone +254 119 177 889. Presenting complaint: a skin rash on the forearm. Plan: Prescribed a short course of medication and advised rest. Follow-up booked for 20/12/2026.",
+  "entities": [
+   [
+    "John Mwangi",
+    "PERSON"
+   ],
+   [
+    "49772036",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 119 177 889",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "doc_id": "AR-P08",
+  "type": "appointment_reminder",
+  "allowed_roles": [
+   "receptionist",
+   "clinician"
+  ],
+  "patient": "P08",
+  "text": "Appointment reminder for John Mwangi (phone +254 119 177 889). The follow-up visit is on 20/12/2026 at 10:00 am. Please bring national ID 49772036 and arrive 15 minutes early.",
+  "entities": [
+   [
+    "John Mwangi",
+    "PERSON"
+   ],
+   [
+    "+254 119 177 889",
+    "PHONE_NUMBER"
+   ],
+   [
+    "49772036",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "BS-P08",
+  "type": "billing_summary",
+  "allowed_roles": [
+   "receptionist"
+  ],
+  "patient": "P08",
+  "text": "Billing summary. Patient John Mwangi, ID 49772036. Invoice 59889272 for KES 5,000 was issued on 01/10/2026. Payment status: pending.",
+  "entities": [
+   [
+    "John Mwangi",
+    "PERSON"
+   ],
+   [
+    "49772036",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "VN-P09",
+  "type": "visit_note",
+  "allowed_roles": [
+   "clinician"
+  ],
+  "patient": "P09",
+  "text": "Visit note. Date: 08/10/2026. Patient Grace Odhiambo, national ID 9115550, phone +254759291708. Presenting complaint: recurring headaches. Plan: Ordered routine blood tests and a follow-up visit. Follow-up booked for 27/12/2026.",
+  "entities": [
+   [
+    "Grace Odhiambo",
+    "PERSON"
+   ],
+   [
+    "9115550",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254759291708",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "doc_id": "AR-P09",
+  "type": "appointment_reminder",
+  "allowed_roles": [
+   "receptionist",
+   "clinician"
+  ],
+  "patient": "P09",
+  "text": "Appointment reminder for Grace Odhiambo (phone +254759291708). The follow-up visit is on 27/12/2026 at 2:00 pm. Please bring national ID 9115550 and arrive 15 minutes early.",
+  "entities": [
+   [
+    "Grace Odhiambo",
+    "PERSON"
+   ],
+   [
+    "+254759291708",
+    "PHONE_NUMBER"
+   ],
+   [
+    "9115550",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "BS-P09",
+  "type": "billing_summary",
+  "allowed_roles": [
+   "receptionist"
+  ],
+  "patient": "P09",
+  "text": "Billing summary. Patient Grace Odhiambo, ID 9115550. Invoice 43487130 for KES 2,300 was issued on 08/10/2026. Payment status: paid.",
+  "entities": [
+   [
+    "Grace Odhiambo",
+    "PERSON"
+   ],
+   [
+    "9115550",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "VN-P10",
+  "type": "visit_note",
+  "allowed_roles": [
+   "clinician"
+  ],
+  "patient": "P10",
+  "text": "Visit note. Date: 04/10/2026. Patient Achieng Wekesa, national ID 7513081, phone 0187 182 310. Presenting complaint: a persistent cough lasting two weeks. Plan: Advised rest and fluids and booked a review. Follow-up booked for 02/12/2026.",
+  "entities": [
+   [
+    "Achieng Wekesa",
+    "PERSON"
+   ],
+   [
+    "7513081",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0187 182 310",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "doc_id": "AR-P10",
+  "type": "appointment_reminder",
+  "allowed_roles": [
+   "receptionist",
+   "clinician"
+  ],
+  "patient": "P10",
+  "text": "Appointment reminder for Achieng Wekesa (phone 0187 182 310). The follow-up visit is on 02/12/2026 at 2:00 pm. Please bring national ID 7513081 and arrive 15 minutes early.",
+  "entities": [
+   [
+    "Achieng Wekesa",
+    "PERSON"
+   ],
+   [
+    "0187 182 310",
+    "PHONE_NUMBER"
+   ],
+   [
+    "7513081",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "BS-P10",
+  "type": "billing_summary",
+  "allowed_roles": [
+   "receptionist"
+  ],
+  "patient": "P10",
+  "text": "Billing summary. Patient Achieng Wekesa, ID 7513081. Invoice 44249499 for KES 2,300 was issued on 04/10/2026. Payment status: pending.",
+  "entities": [
+   [
+    "Achieng Wekesa",
+    "PERSON"
+   ],
+   [
+    "7513081",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "VN-P11",
+  "type": "visit_note",
+  "allowed_roles": [
+   "clinician"
+  ],
+  "patient": "P11",
+  "text": "Visit note. Date: 08/10/2026. Patient Brian Abdi, national ID 66480873, phone +254 147 645 337. Presenting complaint: lower back pain after lifting. Plan: Prescribed a short course of medication and advised rest. Follow-up booked for 16/12/2026.",
+  "entities": [
+   [
+    "Brian Abdi",
+    "PERSON"
+   ],
+   [
+    "66480873",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 147 645 337",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "doc_id": "AR-P11",
+  "type": "appointment_reminder",
+  "allowed_roles": [
+   "receptionist",
+   "clinician"
+  ],
+  "patient": "P11",
+  "text": "Appointment reminder for Brian Abdi (phone +254 147 645 337). The follow-up visit is on 16/12/2026 at 2:00 pm. Please bring national ID 66480873 and arrive 15 minutes early.",
+  "entities": [
+   [
+    "Brian Abdi",
+    "PERSON"
+   ],
+   [
+    "+254 147 645 337",
+    "PHONE_NUMBER"
+   ],
+   [
+    "66480873",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "BS-P11",
+  "type": "billing_summary",
+  "allowed_roles": [
+   "receptionist"
+  ],
+  "patient": "P11",
+  "text": "Billing summary. Patient Brian Abdi, ID 66480873. Invoice 97712304 for KES 5,000 was issued on 08/10/2026. Payment status: paid.",
+  "entities": [
+   [
+    "Brian Abdi",
+    "PERSON"
+   ],
+   [
+    "66480873",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "VN-P12",
+  "type": "visit_note",
+  "allowed_roles": [
+   "clinician"
+  ],
+  "patient": "P12",
+  "text": "Visit note. Date: 08/10/2026. Patient Wanjiru Korir, national ID 38507878, phone 0712 172 513. Presenting complaint: fatigue and poor sleep. Plan: Advised physiotherapy exercises and a review in two weeks. Follow-up booked for 02/12/2026.",
+  "entities": [
+   [
+    "Wanjiru Korir",
+    "PERSON"
+   ],
+   [
+    "38507878",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "0712 172 513",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "doc_id": "AR-P12",
+  "type": "appointment_reminder",
+  "allowed_roles": [
+   "receptionist",
+   "clinician"
+  ],
+  "patient": "P12",
+  "text": "Appointment reminder for Wanjiru Korir (phone 0712 172 513). The follow-up visit is on 02/12/2026 at 8:30 am. Please bring national ID 38507878 and arrive 15 minutes early.",
+  "entities": [
+   [
+    "Wanjiru Korir",
+    "PERSON"
+   ],
+   [
+    "0712 172 513",
+    "PHONE_NUMBER"
+   ],
+   [
+    "38507878",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "BS-P12",
+  "type": "billing_summary",
+  "allowed_roles": [
+   "receptionist"
+  ],
+  "patient": "P12",
+  "text": "Billing summary. Patient Wanjiru Korir, ID 38507878. Invoice 33656381 for KES 3,500 was issued on 08/10/2026. Payment status: pending.",
+  "entities": [
+   [
+    "Wanjiru Korir",
+    "PERSON"
+   ],
+   [
+    "38507878",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "RL-P01",
+  "type": "referral_letter",
+  "allowed_roles": [
+   "clinician"
+  ],
+  "patient": "P01",
+  "text": "Referral letter. Re: Mercy Kiprop, national ID 9864766. Referred to the physiotherapy department for a skin rash on the forearm. Contact number: +254 717 137 384.",
+  "entities": [
+   [
+    "Mercy Kiprop",
+    "PERSON"
+   ],
+   [
+    "9864766",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 717 137 384",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "doc_id": "RL-P02",
+  "type": "referral_letter",
+  "allowed_roles": [
+   "clinician"
+  ],
+  "patient": "P02",
+  "text": "Referral letter. Re: Peter Njeri, national ID 5935044. Referred to the physiotherapy department for a sore throat and mild fever. Contact number: +254 110 794 628.",
+  "entities": [
+   [
+    "Peter Njeri",
+    "PERSON"
+   ],
+   [
+    "5935044",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 110 794 628",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "doc_id": "RL-P03",
+  "type": "referral_letter",
+  "allowed_roles": [
+   "clinician"
+  ],
+  "patient": "P03",
+  "text": "Referral letter. Re: Naliaka Mohamed, national ID 13993234. Referred to the physiotherapy department for fatigue and poor sleep. Contact number: +254 782 903 511.",
+  "entities": [
+   [
+    "Naliaka Mohamed",
+    "PERSON"
+   ],
+   [
+    "13993234",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254 782 903 511",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "doc_id": "RL-P04",
+  "type": "referral_letter",
+  "allowed_roles": [
+   "clinician"
+  ],
+  "patient": "P04",
+  "text": "Referral letter. Re: Faith Otieno, national ID 4518474. Referred to the physiotherapy department for fatigue and poor sleep. Contact number: +254770493701.",
+  "entities": [
+   [
+    "Faith Otieno",
+    "PERSON"
+   ],
+   [
+    "4518474",
+    "KE_NATIONAL_ID"
+   ],
+   [
+    "+254770493701",
+    "PHONE_NUMBER"
+   ]
+  ]
+ },
+ {
+  "doc_id": "DL-P05",
+  "type": "data_request_log",
+  "allowed_roles": [
+   "dpo"
+  ],
+  "patient": "P05",
+  "text": "Data request log. On 23/10/2026, Hassan Wafula (ID 6221231) requested a copy of their records. Request reference 9908762. Status: open.",
+  "entities": [
+   [
+    "Hassan Wafula",
+    "PERSON"
+   ],
+   [
+    "6221231",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "DL-P06",
+  "type": "data_request_log",
+  "allowed_roles": [
+   "dpo"
+  ],
+  "patient": "P06",
+  "text": "Data request log. On 21/10/2026, Kevin Kamau (ID 4160583) requested a copy of their records. Request reference 3207521. Status: open.",
+  "entities": [
+   [
+    "Kevin Kamau",
+    "PERSON"
+   ],
+   [
+    "4160583",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "DL-P07",
+  "type": "data_request_log",
+  "allowed_roles": [
+   "dpo"
+  ],
+  "patient": "P07",
+  "text": "Data request log. On 02/10/2026, Aisha Chebet (ID 5526408) requested a copy of their records. Request reference 2546727. Status: open.",
+  "entities": [
+   [
+    "Aisha Chebet",
+    "PERSON"
+   ],
+   [
+    "5526408",
+    "KE_NATIONAL_ID"
+   ]
+  ]
+ },
+ {
+  "doc_id": "POL-01",
+  "type": "policy",
+  "allowed_roles": [
+   "receptionist",
+   "clinician",
+   "dpo"
+  ],
+  "patient": null,
+  "text": "Clinic opening hours. The clinic is open Monday to Friday from 8:00 am to 5:00 pm and on Saturday from 9:00 am to 1:00 pm. It is closed on public holidays.",
+  "entities": []
+ },
+ {
+  "doc_id": "POL-02",
+  "type": "policy",
+  "allowed_roles": [
+   "receptionist",
+   "clinician",
+   "dpo"
+  ],
+  "patient": null,
+  "text": "Appointment changes. Patients may reschedule up to 24 hours before their appointment by calling reception. Reception records every change in the booking system.",
+  "entities": []
+ },
+ {
+  "doc_id": "POL-03",
+  "type": "policy",
+  "allowed_roles": [
+   "receptionist",
+   "clinician",
+   "dpo"
+  ],
+  "patient": null,
+  "text": "Records requests. A patient may ask in writing for a copy of their records. The data protection officer logs the request and responds within 14 days.",
+  "entities": []
+ },
+ {
+  "doc_id": "POL-04",
+  "type": "policy",
+  "allowed_roles": [
+   "receptionist",
+   "clinician",
+   "dpo"
+  ],
+  "patient": null,
+  "text": "Consent and confidentiality. Patient consent is recorded at registration. Staff may open patient identifiers only when their role requires it.",
+  "entities": []
+ },
+ {
+  "doc_id": "POL-05",
+  "type": "policy",
+  "allowed_roles": [
+   "receptionist",
+   "clinician",
+   "dpo"
+  ],
+  "patient": null,
+  "text": "Test results. Results are shared with the patient by the treating clinician. Reception staff do not discuss test results.",
+  "entities": []
+ },
+ {
+  "doc_id": "POL-06",
+  "type": "policy",
+  "allowed_roles": [
+   "receptionist",
+   "clinician",
+   "dpo"
+  ],
+  "patient": null,
+  "text": "Payments. The clinic accepts cash, M-Pesa and card. An invoice is issued after each visit.",
+  "entities": []
+ }
+]
