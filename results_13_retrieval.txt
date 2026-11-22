@@ -61,6 +61,34 @@ Per question:
   Q19 clinician    deny    forbidden retrieved=[]  got=['POL-03', 'POL-02', 'VN-P05']
 
 ================================================================
+D. Pseudonymised documents AND queries + role filter
+================================================================
+Answer questions: 13 | top-1 correct doc: 5 | all expected docs in top-3: 6
+Top-1 text contains the answer string: 5 of 12
+Deny questions: 6 | forbidden documents retrieved: 0
+Identifiers visible in retrieved text (all questions): 1
+Per question:
+  Q01 receptionist answer  top1=Y hit@3=Y  got=['AR-P01', 'POL-04', 'AR-P10']
+  Q02 receptionist answer  top1=N hit@3=N  got=['POL-04', 'AR-P10', 'AR-P05']
+  Q03 receptionist answer  top1=N hit@3=N  got=['POL-04', 'AR-P10', 'AR-P05']
+  Q04 receptionist answer  top1=N hit@3=N  got=['POL-04', 'AR-P10', 'AR-P05']
+  Q05 clinician    answer  top1=N hit@3=N  got=['AR-P02', 'AR-P10', 'AR-P05']
+  Q06 clinician    answer  top1=N hit@3=N  got=['AR-P02', 'AR-P10', 'AR-P05']
+  Q07 clinician    answer  top1=N hit@3=N  got=['AR-P02', 'AR-P10', 'AR-P05']
+  Q08 receptionist deny    forbidden retrieved=[]  got=['AR-P10', 'AR-P05', 'AR-P06']
+  Q09 receptionist deny    forbidden retrieved=[]  got=['AR-P09', 'AR-P10', 'AR-P05']
+  Q10 receptionist deny    forbidden retrieved=[]  got=['AR-P10', 'AR-P05', 'AR-P06']
+  Q11 clinician    deny    forbidden retrieved=[]  got=['POL-06', 'VN-P01', 'AR-P02']
+  Q12 clinician    deny    forbidden retrieved=[]  got=['POL-06', 'AR-P02', 'RL-P02']
+  Q13 receptionist answer  top1=Y hit@3=Y  got=['BS-P03', 'AR-P03', 'POL-06']
+  Q14 receptionist answer  top1=Y hit@3=Y  got=['BS-P04', 'AR-P04', 'POL-06']
+  Q15 receptionist answer  top1=Y hit@3=Y  got=['POL-01', 'POL-06', 'POL-05']
+  Q16 dpo          answer  top1=N hit@3=Y  got=['POL-01', 'POL-02', 'POL-03']
+  Q17 clinician    answer  top1=Y hit@3=Y  got=['POL-05', 'POL-02']
+  Q18 dpo          answer  top1=N hit@3=N  got=['POL-03', 'DL-P06', 'DL-P05']
+  Q19 clinician    deny    forbidden retrieved=[]  got=['POL-03', 'POL-02', 'VN-P05']
+
+================================================================
 C. CONTROL: unmasked documents, NO role filter
 ================================================================
 Answer questions: 13 | top-1 correct doc: 8 | all expected docs in top-3: 11

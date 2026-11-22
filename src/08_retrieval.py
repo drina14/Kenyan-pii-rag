@@ -25,6 +25,32 @@ def mask(text):
 for d in docs:
     d["masked_text"] = mask(d["text"])
 
+import hmac
+import hashlib
+
+SECRET = b"prototype-secret-key"  # prototype only; a real system keeps this outside the code
+
+
+def pseudo_token(entity, value):
+    if entity == "PERSON":
+        norm = " ".join(value.lower().split())
+    else:
+        norm = "".join(ch for ch in value if ch.isdigit())
+    h = hmac.new(SECRET, f"{entity}:{norm}".encode(), hashlib.sha256).hexdigest()[:6]
+    return f"{entity}_{h}"
+
+
+pseudo_ops = {e: OperatorConfig("custom", {"lambda": (lambda v, e=e: pseudo_token(e, v))})
+              for e in ENTITIES}
+
+
+def pseudo(text):
+    found = analyzer.analyze(text=text, language="en", entities=ENTITIES, score_threshold=0.4)
+    return anonymizer.anonymize(text=text, analyzer_results=found, operators=pseudo_ops).text
+
+
+for d in docs:
+    d["pseudo_text"] = pseudo(d["text"])
 doc_leaks = [(d["doc_id"], v) for d in docs for v, _ in d["entities"] if v in d["masked_text"]]
 total_ids = sum(len(d["entities"]) for d in docs)
 
@@ -52,8 +78,7 @@ def retrieve(index, role_key, query):
     order = sims.argsort()[::-1][:K]
     return [allowed[i] for i in order if sims[i] > 0]
 
-
-def run(label, field, use_filter):
+def run(label, field, use_filter, query_fn=None):
     index = build_index(field)
     n_ans = top1 = hit_k = contains = 0
     n_deny = deny_leaks = 0
@@ -64,7 +89,8 @@ def run(label, field, use_filter):
         if q["expected"] == "out_of_scope":
             continue  
         role_key = q["role"] if use_filter else "ALL"
-        results = retrieve(index, role_key, q["question"])
+        query = query_fn(q["question"]) if query_fn else q["question"]
+        results = retrieve(index, role_key, query)
         ids = [r["doc_id"] for r in results]
         exposed += sum(1 for r in results for v, _ in r["entities"] if v in r[field])
 
@@ -100,6 +126,7 @@ def run(label, field, use_filter):
 
 run("A. Unmasked documents + role filter", "text", True)
 run("B. Masked documents + role filter", "masked_text", True)
+run("D. Pseudonymised documents AND queries + role filter", "pseudo_text", True, pseudo)
 run("C. CONTROL: unmasked documents, NO role filter", "text", False)
 
 output = "\n".join(lines)
