@@ -2,14 +2,15 @@ Called [[P|Wanjiku Mbugua]] on [[PH|0722 111 222]] to confirm Tuesday's slot.
 Invoice 4455667 still open.
 [[ID|27345612]] - [[P|OCHIENG OMONDI]] - follow-up for sore knee, ref 20481133
 Prepare the weekly summary of completed appointments, pending invoices and outstanding administrative tasks. No further action required.
-[[P|DR MWANGI]] needs a callback on [[PH|0700-111-222]]. Verify ID 27654321 before proceeding.
-Received a message from [[PH|+254700123456]] requesting an update on [[P|MRS WAMBUI]]'s file, reference 2026/114.
+DR [[P|MWANGI]] needs a callback on [[PH|0700-111-222]]. Verify ID [[ID|27654321]] before proceeding.
+Received a message from [[PH|+254700123456]] requesting an update on MRS [[P|WAMBUI]]'s file, reference 2026/114.
 [[ID|30124567]], [[ID|30987654]] - verify records for [[P|MUTUA]] and [[P|AKINYI]]. Invoice 998877.
-Njeri's outstanding request is linked to [[ID|29456781]]. Send confirmation via SMS to 254722333444.
-[[P|MR KIPTOO]] called from [[PH|0712 345 678]] asking about his application dated 12/11/2026.
-Follow up with [[P|OTIENO]] and [[P|CHEBET]] regarding IDs 2734 5612, 2890 4567. File number 778899.
-Client ID 28456789 belongs to [[P|DR GRACE WANJIRU]]. SMS sent to [[PH|+254711222333]] confirming the consultation.
+[[P|Njeri]]'s outstanding request is linked to [[ID|29456781]]. Send confirmation via SMS to [[PH|254722333444]].
+MR [[P|KIPTOO]] called from [[PH|0712 345 678]] asking about his application dated 12/11/2026.
+Follow up with [[P|OTIENO]] and [[P|CHEBET]] regarding IDs [[ID|2734 5612]], [[ID|2890 4567]]. File number 778899.
+Client ID [[ID|28456789]] belongs to DR [[P|GRACE WANJIRU]]. SMS sent to [[PH|+254711222333]] confirming the consultation.
 [[P|KAMAU]] requested an update on case 556789. Contact via [[PH|254733444555]].
-Spoke to [[P|MRS NJERI]] regarding the outstanding balance of KES 15000. Call back on [[PH|0722-111-222]].
-[[ID|2987 6543]] - follow-up requested by Mrs Wanjiku's office. Send SMS to 0723-456-789 regarding file 2026/089.
-Called [[P|JOHN KARIUKI]] on [[PH|+254722987654]] to confirm payment of KES 8500. Client ID 28765432, receipt 556677.
+Spoke to MRS [[P|NJERI]] regarding the outstanding balance of KES 15000. Call back on [[PH|0722-111-222]].
+[[ID|2987 6543]] - follow-up requested by Mrs [[P|Wanjiku]]'s office. Send SMS to [[PH|0723-456-789]] regarding file 2026/089.
+Called [[P|JOHN KARIUKI]] on [[PH|+254722987654]] to confirm payment of KES 8500. Client ID [[ID|28765432]], receipt 556677.
+
