@@ -1,9 +1,12 @@
 import json
+import json
+import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from presidio_anonymizer import AnonymizerEngine
 from presidio_anonymizer.entities import OperatorConfig
 from ke_recognizers import build_ke_analyzer
+
 
 docs = json.load(open("data/corpus.json", encoding="utf-8"))
 questions = json.load(open("data/questions.json", encoding="utf-8"))
@@ -33,12 +36,15 @@ SECRET = b"prototype-secret-key"  # prototype only; a real system keeps this out
 
 def pseudo_token(entity, value):
     if entity == "PERSON":
-        norm = " ".join(value.lower().split())
-    else:
-        norm = "".join(ch for ch in value if ch.isdigit())
+        words = re.sub(r"['’]s$", "", value.strip()).lower().split()
+        words = [w.strip(".,") for w in words if w.strip(".,") not in ("dr", "")]
+        return " ".join(
+            "PERSON_" + hmac.new(SECRET, f"PERSON:{w}".encode(), hashlib.sha256).hexdigest()[:6]
+            for w in words
+        )
+    norm = "".join(ch for ch in value if ch.isdigit())
     h = hmac.new(SECRET, f"{entity}:{norm}".encode(), hashlib.sha256).hexdigest()[:6]
     return f"{entity}_{h}"
-
 
 pseudo_ops = {e: OperatorConfig("custom", {"lambda": (lambda v, e=e: pseudo_token(e, v))})
               for e in ENTITIES}
@@ -51,7 +57,12 @@ def pseudo(text):
 
 for d in docs:
     d["pseudo_text"] = pseudo(d["text"])
-doc_leaks = [(d["doc_id"], v) for d in docs for v, _ in d["entities"] if v in d["masked_text"]]
+    def leaked(value, label, masked):
+       if label == "PERSON":
+        parts = [w.strip(".,") for w in value.split() if len(w.strip(".,")) > 2]
+        return any(p in masked for p in parts)
+        return value in masked
+doc_leaks = [(d["doc_id"], v) for d in docs for v, l in d["entities"] if leaked(v, l, d["masked_text"])]
 total_ids = sum(len(d["entities"]) for d in docs)
 
 lines = []
@@ -92,8 +103,7 @@ def run(label, field, use_filter, query_fn=None):
         query = query_fn(q["question"]) if query_fn else q["question"]
         results = retrieve(index, role_key, query)
         ids = [r["doc_id"] for r in results]
-        exposed += sum(1 for r in results for v, _ in r["entities"] if v in r[field])
-
+        exposed += sum(1 for r in results for v, l in r["entities"] if leaked(v, l, r[field]))
         if q["expected"] == "answer":
             n_ans += 1
             exp = set(q["expected_docs"])

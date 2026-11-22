@@ -1,4 +1,5 @@
-Corpus masking check: 114 labelled identifiers, 4 still visible after masking
+Corpus masking check: 114 labelled identifiers, 5 still visible after masking
+  LEAK in AR-P01: Mercy Kiprop
   LEAK in AR-P09: Grace Odhiambo
   LEAK in AR-P12: Wanjiru Korir
   LEAK in RL-P01: Mercy Kiprop
@@ -10,7 +11,7 @@ A. Unmasked documents + role filter
 Answer questions: 13 | top-1 correct doc: 8 | all expected docs in top-3: 12
 Top-1 text contains the answer string: 8 of 12
 Deny questions: 6 | forbidden documents retrieved: 0
-Identifiers visible in retrieved text (all questions): 103
+Identifiers visible in retrieved text (all questions): 38
 Per question:
   Q01 receptionist answer  top1=Y hit@3=Y  got=['AR-P01', 'BS-P01', 'POL-04']
   Q02 receptionist answer  top1=Y hit@3=Y  got=['AR-P02', 'BS-P02', 'POL-04']
@@ -38,7 +39,7 @@ B. Masked documents + role filter
 Answer questions: 13 | top-1 correct doc: 3 | all expected docs in top-3: 4
 Top-1 text contains the answer string: 3 of 12
 Deny questions: 6 | forbidden documents retrieved: 0
-Identifiers visible in retrieved text (all questions): 2
+Identifiers visible in retrieved text (all questions): 4
 Per question:
   Q01 receptionist answer  top1=Y hit@3=Y  got=['AR-P01', 'POL-04', 'AR-P10']
   Q02 receptionist answer  top1=N hit@3=N  got=['POL-04', 'AR-P10', 'AR-P05']
@@ -63,23 +64,23 @@ Per question:
 ================================================================
 D. Pseudonymised documents AND queries + role filter
 ================================================================
-Answer questions: 13 | top-1 correct doc: 5 | all expected docs in top-3: 6
-Top-1 text contains the answer string: 5 of 12
+Answer questions: 13 | top-1 correct doc: 8 | all expected docs in top-3: 12
+Top-1 text contains the answer string: 8 of 12
 Deny questions: 6 | forbidden documents retrieved: 0
-Identifiers visible in retrieved text (all questions): 1
+Identifiers visible in retrieved text (all questions): 3
 Per question:
-  Q01 receptionist answer  top1=Y hit@3=Y  got=['AR-P01', 'POL-04', 'AR-P10']
-  Q02 receptionist answer  top1=N hit@3=N  got=['POL-04', 'AR-P10', 'AR-P05']
-  Q03 receptionist answer  top1=N hit@3=N  got=['POL-04', 'AR-P10', 'AR-P05']
-  Q04 receptionist answer  top1=N hit@3=N  got=['POL-04', 'AR-P10', 'AR-P05']
-  Q05 clinician    answer  top1=N hit@3=N  got=['AR-P02', 'AR-P10', 'AR-P05']
-  Q06 clinician    answer  top1=N hit@3=N  got=['AR-P02', 'AR-P10', 'AR-P05']
-  Q07 clinician    answer  top1=N hit@3=N  got=['AR-P02', 'AR-P10', 'AR-P05']
-  Q08 receptionist deny    forbidden retrieved=[]  got=['AR-P10', 'AR-P05', 'AR-P06']
+  Q01 receptionist answer  top1=Y hit@3=Y  got=['AR-P01', 'POL-04', 'BS-P01']
+  Q02 receptionist answer  top1=Y hit@3=Y  got=['AR-P02', 'BS-P02', 'POL-04']
+  Q03 receptionist answer  top1=Y hit@3=Y  got=['AR-P03', 'BS-P03', 'POL-04']
+  Q04 receptionist answer  top1=Y hit@3=Y  got=['AR-P04', 'BS-P04', 'POL-04']
+  Q05 clinician    answer  top1=N hit@3=Y  got=['AR-P05', 'VN-P05', 'AR-P02']
+  Q06 clinician    answer  top1=N hit@3=Y  got=['AR-P06', 'VN-P06', 'AR-P02']
+  Q07 clinician    answer  top1=N hit@3=Y  got=['AR-P07', 'VN-P07', 'AR-P02']
+  Q08 receptionist deny    forbidden retrieved=[]  got=['BS-P08', 'AR-P08', 'AR-P10']
   Q09 receptionist deny    forbidden retrieved=[]  got=['AR-P09', 'AR-P10', 'AR-P05']
-  Q10 receptionist deny    forbidden retrieved=[]  got=['AR-P10', 'AR-P05', 'AR-P06']
-  Q11 clinician    deny    forbidden retrieved=[]  got=['POL-06', 'VN-P01', 'AR-P02']
-  Q12 clinician    deny    forbidden retrieved=[]  got=['POL-06', 'AR-P02', 'RL-P02']
+  Q10 receptionist deny    forbidden retrieved=[]  got=['BS-P10', 'AR-P10', 'AR-P05']
+  Q11 clinician    deny    forbidden retrieved=[]  got=['VN-P01', 'AR-P01', 'POL-06']
+  Q12 clinician    deny    forbidden retrieved=[]  got=['AR-P02', 'RL-P02', 'POL-06']
   Q13 receptionist answer  top1=Y hit@3=Y  got=['BS-P03', 'AR-P03', 'POL-06']
   Q14 receptionist answer  top1=Y hit@3=Y  got=['BS-P04', 'AR-P04', 'POL-06']
   Q15 receptionist answer  top1=Y hit@3=Y  got=['POL-01', 'POL-06', 'POL-05']
@@ -94,7 +95,7 @@ C. CONTROL: unmasked documents, NO role filter
 Answer questions: 13 | top-1 correct doc: 8 | all expected docs in top-3: 11
 Top-1 text contains the answer string: 8 of 12
 Deny questions: 6 | forbidden documents retrieved: 7
-Identifiers visible in retrieved text (all questions): 124
+Identifiers visible in retrieved text (all questions): 48
 Per question:
   Q01 receptionist answer  top1=Y hit@3=Y  got=['AR-P01', 'BS-P01', 'RL-P01']
   Q02 receptionist answer  top1=Y hit@3=Y  got=['AR-P02', 'BS-P02', 'RL-P02']

@@ -35,6 +35,8 @@ def evaluate(threshold):
             used.update(i for i, _ in hits)
             if any(p.entity_type == label for _, p in hits):
                 stats[label]["correct"] += 1
+                if any(p.entity_type == label and p.start == s and p.end == e for _, p in hits):
+                    stats[label]["exact"] = stats[label].get("exact", 0) + 1
             elif hits:
                 stats[label]["misclassified"] += 1
                 got = ", ".join(sorted({p.entity_type for _, p in hits}))
@@ -59,9 +61,9 @@ for threshold in (0.0, 0.4):
     name = "Default Presidio + Kenyan ID recogniser" if USE_KE else "Default Presidio"
     print(f"{name}, score threshold = {threshold}")
     print("=" * 60)
-    print(f"{'Entity':18}{'Gold':>6}{'Correct':>9}{'Wrong label':>13}{'Missed':>8}")
+    print(f"{'Entity':18}{'Gold':>6}{'Correct':>9}{'Exact':>7}{'Wrong label':>13}{'Missed':>8}")
     for label, s in stats.items():
-        print(f"{label:18}{s['gold']:>6}{s['correct']:>9}{s['misclassified']:>13}{s['missed']:>8}")
+        print(f"{label:18}{s['gold']:>6}{s['correct']:>9}{s.get('exact', 0):>7}{s['misclassified']:>13}{s['missed']:>8}")
     print("\nFalse positives (detections that match no labelled entity):")
     if false_pos:
         for label, n in false_pos.items():
