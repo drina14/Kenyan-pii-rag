@@ -1,0 +1,28 @@
+Handwritten notes: 15 | threshold 0.4 | Kenyan recognisers on
+Entity            Gold  Exact  Partial  Wrong  Missed  FalsePos
+PERSON              13      3        4      0       6         1
+KE_NATIONAL_ID       5      0        0      0       5         3
+PHONE_NUMBER         8      8        0      0       0         2
+
+Details:
+  note 3: '27345612' (KE_NATIONAL_ID) MISSED
+  note 3: 'OCHIENG OMONDI' (PERSON) MISSED
+  note 5: 'DR MWANGI' only PARTLY detected as PERSON
+  note 5: FALSE POSITIVE '27654321' as KE_NATIONAL_ID
+  note 6: 'MRS WAMBUI' only PARTLY detected as PERSON
+  note 7: '30124567' (KE_NATIONAL_ID) MISSED
+  note 7: '30987654' (KE_NATIONAL_ID) MISSED
+  note 7: 'MUTUA' (PERSON) MISSED
+  note 7: 'AKINYI' (PERSON) MISSED
+  note 8: '29456781' (KE_NATIONAL_ID) MISSED
+  note 8: FALSE POSITIVE '254722333444' as PHONE_NUMBER
+  note 9: 'MR KIPTOO' only PARTLY detected as PERSON
+  note 10: 'OTIENO' (PERSON) MISSED
+  note 10: 'CHEBET' (PERSON) MISSED
+  note 11: 'DR GRACE WANJIRU' only PARTLY detected as PERSON
+  note 11: FALSE POSITIVE '28456789' as KE_NATIONAL_ID
+  note 13: 'MRS NJERI' (PERSON) MISSED
+  note 14: '2987 6543' (KE_NATIONAL_ID) MISSED
+  note 14: FALSE POSITIVE 'Mrs Wanjiku's' as PERSON
+  note 14: FALSE POSITIVE '0723-456-789' as PHONE_NUMBER
+  note 15: FALSE POSITIVE '28765432' as KE_NATIONAL_ID
