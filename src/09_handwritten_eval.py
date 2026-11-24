@@ -2,12 +2,14 @@ import re
 import sys
 from collections import defaultdict
 from ke_recognizers import build_ke_analyzer
+from presidio_analyzer import AnalyzerEngine
 
 LABEL = {"P": "PERSON", "ID": "KE_NATIONAL_ID", "PH": "PHONE_NUMBER"}
 TAG = re.compile(r"\[\[(P|ID|PH)\|(.*?)\]\]")
 PATH = next((a for a in sys.argv[1:] if a.endswith(".txt")), "data/handwritten.txt")
 
-analyzer = build_ke_analyzer()
+analyzer = (AnalyzerEngine() if "--default" in sys.argv
+            else build_ke_analyzer(exact="--substring" not in sys.argv))
 stats = defaultdict(lambda: defaultdict(int))
 problems, notes = [], 0
 
