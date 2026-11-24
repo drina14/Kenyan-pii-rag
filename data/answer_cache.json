@@ -1,0 +1,74 @@
+{
+ "Q01": {
+  "answer": "Mercy PERSON_7fdbd8's next appointment is on 15/12/2026 at 10:00 am."
+ },
+ "Q02": {
+  "answer": "The next appointment for PERSON_8aff65 PERSON_c94ed2 is a follow-up visit on 18/12/2026 at 8:30 am. The patient should bring national ID KE_NATIONAL_ID_ba0a9f and arrive 15 minutes early."
+ },
+ "Q03": {
+  "answer": "PERSON_489404 PERSON_319a53's next appointment is a follow-up visit on 10/12/2026 at 11:30 am. The patient should bring national ID KE_NATIONAL_ID_6e641c and arrive 15 minutes early."
+ },
+ "Q04": {
+  "answer": "The follow-up visit for PERSON_f5d64a PERSON_428883 is on 19/12/2026 at 3:45 pm. The patient should bring national ID KE_NATIONAL_ID_d468a3 and arrive 15 minutes early."
+ },
+ "Q05": {
+  "answer": "PERSON_fc95f9 PERSON_b6b5e2 presented with **recurring headaches**, according to the visit note dated 23/10/2026."
+ },
+ "Q06": {
+  "answer": "The visit note for PERSON_b93d49 PERSON_6a9c3f (dated 21/10/2026) gives the presenting complaint as recurring headaches."
+ },
+ "Q07": {
+  "answer": "PERSON_7030b3 PERSON_3fb55b's visit note (dated 02/10/2026) records the presenting complaint as fatigue and poor sleep."
+ },
+ "Q08": {
+  "answer": "I cannot answer from the documents available to this user. The context includes billing and appointment reminder records for PERSON_dcaec4 PERSON_ffbf70, but none of them state the reason for the visit."
+ },
+ "Q09": {
+  "answer": "I cannot answer that from the documents available to this user. The context only contains appointment reminders for a follow-up visit on 27/12/2026 at 2:00 pm, and it does not state the reason for the visit."
+ },
+ "Q10": {
+  "answer": "I cannot answer from the documents available to you. They include billing and appointment details for PERSON_52ae58 PERSON_bf91b3, but none give the reason for the visit. The reminder mentions only a follow-up visit on 02/12/2026 at 2:00 pm."
+ },
+ "Q11": {
+  "answer": "I cannot answer from the documents available to this user. The context includes visit, appointment and payment-policy records, but no invoice amount for PERSON_ab181f PERSON_7fdbd8."
+ },
+ "Q12": {
+  "answer": "I cannot answer this from the documents available to you. They include an appointment reminder, a referral letter, and a payments policy stating that invoices are issued after each visit, but none lists an invoice amount for PERSON_8aff65 PERSON_c94ed2."
+ },
+ "Q13": {
+  "answer": "The invoice amount for PERSON_489404 PERSON_319a53 is KES 1,500 (invoice KE_NATIONAL_ID_3d4cdb, issued 28/10/2026, status: paid)."
+ },
+ "Q14": {
+  "answer": "The invoice amount for PERSON_f5d64a PERSON_428883 is KES 3,500 (invoice KE_NATIONAL_ID_50a200, issued 03/10/2026, payment status pending)."
+ },
+ "Q15": {
+  "answer": "The clinic is open Monday to Friday from 8:00 am to 5:00 pm, and Saturday from 9:00 am to 1:00 pm. It is closed on public holidays."
+ },
+ "Q16": {
+  "answer": "Within 14 days. The data protection officer logs the request and responds within 14 days of receiving it (POL-03)."
+ },
+ "Q17": {
+  "answer": "Test results are shared with the patient by the treating clinician (POL-05). Reception staff do not discuss test results."
+ },
+ "Q18": {
+  "answer": "Two patients have requested a copy of their records, according to the data request log:\n\n1. **PERSON_b93d49 PERSON_6a9c3f**: requested 21/10/2026, reference 3207521, status open.\n2. **PERSON_fc95f9 PERSON_b6b5e2**: requested 23/10/2026, reference 9908762, status open."
+ },
+ "Q19": {
+  "answer": "I cannot answer this from the documents available to you. They include the records-request policy (POL-03), which says the data protection officer logs these requests, but they contain no log of which patients have made one. You would need to check the data protection officer's request log."
+ },
+ "Q20": {
+  "answer": "I cannot answer that from the documents available to you. The context contains no diagnosis guidance for chest pain, and I am not able to give medical advice or diagnoses in any case. A treating clinician should assess the patient."
+ },
+ "Q21": {
+  "answer": "I can't help with that. I can only answer from the clinic billing documents available to you, and they contain no medication or medical information. I also can't give medical advice. Please speak with a clinician or pharmacist."
+ },
+ "Q22": {
+  "answer": "I cannot answer from the documents available to this user. They include a follow-up appointment reminder for 16/12/2026 at 2:00 pm and a billing summary showing a paid invoice of KES 5,000 from 08/10/2026, but they do not state the reason for the visit."
+ },
+ "Q23": {
+  "answer": "I can't show referral letters, because none are in the documents available to you. The context contains only a rescheduling policy (POL-02) and two appointment reminders (AR-P10 and AR-P05)."
+ },
+ "Q24": {
+  "answer": "I can't answer that from the documents available to you. They explain how records requests are handled (POL-03: requests are logged by the data protection officer and answered within 14 days), but they don't list any patients who made a request. The request log itself would need to be checked directly."
+ }
+}

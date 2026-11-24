@@ -106,15 +106,19 @@ for q in questions:
             print("Call limit reached - raise MAX_CALLS if you really want more.")
             break
         msg = client.messages.create(
-            model=MODEL, max_tokens=200, system=SYSTEM,
+            model=MODEL, max_tokens=600, system=SYSTEM,
             messages=[{"role": "user", "content": prompt}],
         )
-        answer = msg.content[0].text.strip()
+        answer = "".join(b.text for b in msg.content if b.type == "text").strip()
         calls += 1
         in_tok += msg.usage.input_tokens
         out_tok += msg.usage.output_tokens
-        cache[q["qid"]] = {"answer": answer}
-        CACHE.write_text(json.dumps(cache, indent=1), encoding="utf-8")
+        if not answer:
+            print(f"{q['qid']}: no text returned (stop_reason={msg.stop_reason}) - not cached")
+            answer = "(no text returned)"
+        else:
+            cache[q["qid"]] = {"answer": answer}
+            CACHE.write_text(json.dumps(cache, indent=1), encoding="utf-8")
 
     note = ""
     if q["expected"] == "answer" and q["answer_contains"]:
