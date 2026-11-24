@@ -3,7 +3,7 @@ from presidio_analyzer import AnalyzerEngine, Pattern, PatternRecognizer
 from presidio_analyzer.context_aware_enhancers import LemmaContextAwareEnhancer
 
 # Words that, when they appear near a number, suggest it is a national ID.
-KE_ID_CONTEXT = ["id", "identity", "national", "idno", "passport"]
+KE_ID_CONTEXT = ["id", "ids", "identity", "national", "idno", "passport"]
 
 # All-caps words that are not names; left alone by the case normalisation.
 PROTECTED = {"ID", "IDS", "SMS", "KES", "DR", "MR", "MRS", "MS", "OPD", "NHIF", "KRA", "PIN"}
@@ -64,12 +64,21 @@ class KeAnalyzerEngine(AnalyzerEngine):
             results = [r for r in results if r.entity_type != "PERSON"] + names
         return results
 
+class ExactWordContextEnhancer(LemmaContextAwareEnhancer):
+    """Presidio's default context matching is substring-based ('id' matches inside 'unpaid').
+    This version forces its built-in whole-word mode."""
 
-def build_ke_analyzer(prefix=3, suffix=2, spaced=True, caps=True):
+    @staticmethod
+    def _find_supportive_word_in_context(context_list, recognizer_context_list,
+                                         matching_mode="substring"):
+        return LemmaContextAwareEnhancer._find_supportive_word_in_context(
+            context_list, recognizer_context_list, "whole_word"
+        )
+
+def build_ke_analyzer(prefix=3, suffix=2, spaced=True, caps=True, exact=True):
     """Presidio analyser with the Kenyan recognisers and a narrowed context window."""
-    enhancer = LemmaContextAwareEnhancer(
-        context_prefix_count=prefix, context_suffix_count=suffix
-    )
+    enhancer_cls = ExactWordContextEnhancer if exact else LemmaContextAwareEnhancer
+    enhancer = enhancer_cls(context_prefix_count=prefix, context_suffix_count=suffix)
     cls = KeAnalyzerEngine if caps else AnalyzerEngine
     analyzer = cls(context_aware_enhancer=enhancer)
     analyzer.registry.add_recognizer(ke_national_id_recogniser(spaced))

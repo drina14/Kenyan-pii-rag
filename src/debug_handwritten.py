@@ -3,9 +3,9 @@ from ke_recognizers import build_ke_analyzer
 
 TAG = re.compile(r"\[\[(P|ID|PH)\|(.*?)\]\]")
 analyzer = build_ke_analyzer()
-WANT = {3, 7, 8, 14}
+WANT = {1}
 
-for n, line in enumerate(open("data/handwritten.txt", encoding="utf-8"), 1):
+for n, line in enumerate(open("data/handwritten_test.txt", encoding="utf-8"), 1):
     if n not in WANT:
         continue
     text = TAG.sub(lambda m: m.group(2), line.strip())

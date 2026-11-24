@@ -1,5 +1,5 @@
 Called [[P|PETER OTIENO]] and [[P|MARY WANJIKU]] to confirm the appointment. Invoice 45678912 remains unpaid.
-[[ID|2845 6712]] - Follow-up for [[P|KIPCHIRCHIR]] regarding receipt 7654321. Call back on 0712345678.
-Dr. James Mwangi requested an update on file reference 2026/118. His ID is 29345678 and receipt number is 87654321.
+[[ID|2845 6712]] - Follow-up for [[P|KIPCHIRCHIR]] regarding receipt 7654321. Call back on [[PH|0712345678]].
+Dr. [[P|James Mwangi]] requested an update on file reference 2026/118. His ID is [[ID|29345678]] and receipt number is 87654321.
 [[P|GRACE AKINYI]] confirmed payment of KES 12500. Reference number 6543219, invoice 34567891.
 Prepare the monthly administrative summary covering pending appointments, completed tasks and outstanding invoices. No further action is required.
