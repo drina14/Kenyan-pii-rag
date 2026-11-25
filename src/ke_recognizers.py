@@ -2,16 +2,12 @@ import re
 from presidio_analyzer import AnalyzerEngine, Pattern, PatternRecognizer
 from presidio_analyzer.context_aware_enhancers import LemmaContextAwareEnhancer
 
-# Words that, when they appear near a number, suggest it is a national ID.
 KE_ID_CONTEXT = ["id", "ids", "identity", "national", "idno", "passport"]
 
-# All-caps words that are not names; left alone by the case normalisation.
 PROTECTED = {"ID", "IDS", "SMS", "KES", "DR", "MR", "MRS", "MS", "OPD", "NHIF", "KRA", "PIN"}
 
 
 def ke_national_id_recogniser(spaced=True):
-    """Kenyan national ID: 7 or 8 digits (optionally one space inside), low base score,
-    boosted by nearby context words."""
     patterns = [Pattern(name="ke_national_id_7_8_digits", regex=r"\b\d{7,8}\b", score=0.1)]
     if spaced:
         patterns.append(Pattern(
@@ -28,7 +24,6 @@ def ke_national_id_recogniser(spaced=True):
 
 
 def ke_phone_recogniser():
-    """Kenyan mobile numbers: +254 / 254 / 0 prefix, then 7xx or 1xx, optional spaces or hyphens."""
     pattern = Pattern(
         name="ke_mobile",
         regex=r"(?<!\d)(?:\+?254|0)[\s-]?[17]\d{2}[\s-]?\d{3}[\s-]?\d{3}(?!\d)",
@@ -42,7 +37,6 @@ def ke_phone_recogniser():
 
 
 def _normalise_caps(text):
-    """Title-case all-caps words (same length, so character offsets stay valid)."""
     return re.sub(
         r"\b[A-Z]{2,}\b",
         lambda m: m.group(0) if m.group(0) in PROTECTED else m.group(0).capitalize(),
@@ -51,7 +45,6 @@ def _normalise_caps(text):
 
 
 class KeAnalyzerEngine(AnalyzerEngine):
-    """PERSON is detected on a case-normalised copy; everything else on the original text."""
 
     def analyze(self, text, language="en", **kwargs):
         results = super().analyze(text=text, language=language, **kwargs)
@@ -65,9 +58,7 @@ class KeAnalyzerEngine(AnalyzerEngine):
         return results
 
 class ExactWordContextEnhancer(LemmaContextAwareEnhancer):
-    """Presidio's default context matching is substring-based ('id' matches inside 'unpaid').
-    This version forces its built-in whole-word mode."""
-
+    
     @staticmethod
     def _find_supportive_word_in_context(context_list, recognizer_context_list,
                                          matching_mode="substring"):
@@ -76,7 +67,6 @@ class ExactWordContextEnhancer(LemmaContextAwareEnhancer):
         )
 
 def build_ke_analyzer(prefix=3, suffix=2, spaced=True, caps=True, exact=True):
-    """Presidio analyser with the Kenyan recognisers and a narrowed context window."""
     enhancer_cls = ExactWordContextEnhancer if exact else LemmaContextAwareEnhancer
     enhancer = enhancer_cls(context_prefix_count=prefix, context_suffix_count=suffix)
     cls = KeAnalyzerEngine if caps else AnalyzerEngine

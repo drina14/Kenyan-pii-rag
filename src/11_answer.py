@@ -16,7 +16,7 @@ MODEL = "claude-haiku-5-5"
 MAX_CALLS = 30
 K = 3
 DRY = "--dry" in sys.argv
-CACHE = Path("data/answer_cache.json")  # delete this file to force fresh answers
+CACHE = Path("data/answer_cache.json")  
 SECRET = b"prototype-secret-key"
 ENTITIES = ["PERSON", "PHONE_NUMBER", "KE_NATIONAL_ID"]
 
@@ -69,7 +69,7 @@ def prompt_leaks(text):
     return parts, raw
 
 def retrieve(role, query):
-    allowed = [d for d in docs if role in d["allowed_roles"]]  # role filter BEFORE search
+    allowed = [d for d in docs if role in d["allowed_roles"]]  
     vec = TfidfVectorizer()
     mat = vec.fit_transform([d["pseudo_text"] for d in allowed])
     sims = cosine_similarity(vec.transform([query]), mat)[0]
@@ -77,7 +77,7 @@ def retrieve(role, query):
 
 
 cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
-client = None if DRY else anthropic.Anthropic()  # reads ANTHROPIC_API_KEY
+client = None if DRY else anthropic.Anthropic()  
 calls = in_tok = out_tok = checked = ok = leaky = 0
 leak_log = []
 lines = []

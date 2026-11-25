@@ -31,7 +31,7 @@ for d in docs:
 import hmac
 import hashlib
 
-SECRET = b"prototype-secret-key"  # prototype only; a real system keeps this outside the code
+SECRET = b"prototype-secret-key"  
 
 
 def pseudo_token(entity, value):
