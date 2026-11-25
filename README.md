@@ -170,7 +170,7 @@ Corpus masking check: 114 labelled identifiers; no ID or phone number remained v
 - Substring context matching boosted `45678912` because of `unpaid`. I switched to whole-word matching.
 - My first all-caps fix lowered ID detection by rewriting `ID` itself. I rebuilt it to apply to names only, and an ablation confirmed no regression.
 - My first scoring counted partial name detections as correct. I switched to exact span scoring.
-- `.venv` was committed by mistake, i removed it from the history.
+- `.venv` was committed by mistake in my first commit, because `.gitignore` did not exist yet. I removed it from tracking, then rewrote the local history with git-filter-repo before pushing, so the repository does not contain it.
 
 ## Privacy and security notes
 
